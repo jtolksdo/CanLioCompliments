@@ -1,0 +1,880 @@
+2024-06-11 14:23:11.254 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:23:11.366 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:23:15.257 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:23:15.336 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 14:23:15.342 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:23:18.655 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:23:18.793 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 14:23:20.257 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:23:20.812 - warn: javascript.0 (96249) State "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" not found
+2024-06-11 14:23:20.813 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 14:23:20.814 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 14:23:20.814 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 14:23:20.815 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 14:23:20.815 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 14:23:20.815 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 14:23:32.492 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:23:32.548 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:23:39.155 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:23:42.096 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:24:18.667 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:24:18.814 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 14:24:18.820 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:24:30.154 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:24:30.318 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 14:24:31.904 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:24:39.176 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:24:39.227 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:24:42.290 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:24:42.358 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:24:45.963 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:24:49.443 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:25:30.191 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:25:30.289 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 14:25:30.302 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:25:39.903 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:25:40.040 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 14:25:41.434 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:25:45.972 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:25:46.044 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:25:49.455 - warn: admin.0 (96207) REAUTHENTICATE!
+2024-06-11 14:25:49.489 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 14:26:08.950 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 14:27:44.519 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:27:44.901 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 14:27:46.256 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:27:56.245 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:29:46.558 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:40:05.582 - error: javascript.0 (96249) script.js.common.speedtest: Speedtest konnte nicht ausgeführt werden! Error: Command failed: /etc/speedtest/speedtest -f json --accept-license --accept-gdpr -s 28602
+{"type":"log","timestamp":"2024-06-11T12:40:05Z","message":"Error: [101] Network unreachable","level":"error"}
+2024-06-11 14:49:55.810 - info: web.0 (96477) <== Disconnect system.user.admin from ::ffff:192.168.19.243
+2024-06-11 14:51:53.935 - warn: zigbee.0 (96372) DeviceAvailability:Stopping to ping 0xa4c13838f267299c TS0601 after 4 ping attempts
+2024-06-11 15:31:26.894 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 15:31:26.896 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 15:31:26.897 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 15:31:30.352 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 15:31:35.189 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 15:33:14.486 - info: web.0 (96477) <== Disconnect system.user.admin from ::ffff:192.168.19.243
+2024-06-11 15:52:40.757 - warn: tuya.0 (96392) bf60f311132c5dddc2pbbm.22: A set command is already in progress. Can not issue a second one that also should return a response.. Try to use cloud.
+2024-06-11 15:55:12.970 - error: javascript.0 (96249) script.js.common.speedtest: Speedtest konnte nicht ausgeführt werden! Error: Command failed: /etc/speedtest/speedtest -f json --accept-license --accept-gdpr -s 28602
+2024-06-11 16:49:29.320 - warn: tuya.0 (96392) bf60f311132c5dddc2pbbm.22: A set command is already in progress. Can not issue a second one that also should return a response.. Try to use cloud.
+2024-06-11 17:13:17.296 - info: tuya.0 (96392) bf7b79570c354c940ezedh: Error on Reconnect (1): connection timed out
+2024-06-11 17:30:56.548 - info: web.0 (96477) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 17:32:00.550 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 17:32:00.640 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 17:32:00.695 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 17:32:00.714 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 17:32:00.791 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 18:46:48.280 - error: cloud.0 (96309) Ping timeout
+2024-06-11 18:47:18.289 - info: cloud.0 (96309) Trying to connect as system.user.admin to cloud
+2024-06-11 18:47:18.656 - info: cloud.0 (96309) Connection changed: connect
+2024-06-11 18:55:23.667 - error: cloud.0 (96309) Ping timeout
+2024-06-11 18:55:23.668 - info: cloud.0 (96309) Connection changed: Ping timeout
+2024-06-11 18:55:23.668 - info: cloud.0 (96309) Connection lost
+2024-06-11 18:55:53.675 - info: cloud.0 (96309) Trying to connect as system.user.admin to cloud
+2024-06-11 18:55:54.135 - info: cloud.0 (96309) Connection changed: connect
+2024-06-11 19:29:26.416 - info: tuya.0 (96392) bf7b79570c354c940ezedh: Error on Reconnect (1): connect EHOSTUNREACH 192.168.19.22:6668
+2024-06-11 19:33:41.199 - info: tuya.0 (96392) bf60f311132c5dddc2pbbm: Error on Reconnect (1): connect EHOSTUNREACH 192.168.19.180:6668
+2024-06-11 19:37:35.971 - warn: tuya.0 (96392) bf60f311132c5dddc2pbbm.22: A set command is already in progress. Can not issue a second one that also should return a response.. Try to use cloud.
+2024-06-11 19:41:54.679 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:41:54.681 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:41:54.682 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:41:54.682 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:41:54.682 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:41:54.682 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:41:54.682 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:42:54.679 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:42:54.680 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:43:54.679 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:43:54.680 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:44:54.679 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:44:54.680 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:45:54.681 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:45:54.681 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:45:54.681 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:45:54.682 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:45:54.682 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:45:54.682 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:45:54.682 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:46:54.682 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:46:54.683 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:47:54.683 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:47:54.684 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:47:54.685 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:47:54.685 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:47:54.685 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:47:54.685 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:47:54.685 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:48:54.684 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:48:54.685 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:49:54.685 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:49:54.686 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:50:54.686 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:50:54.686 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:50:54.686 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:50:54.687 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:50:54.687 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:50:54.687 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:50:54.687 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:51:54.686 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:51:54.687 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:52:54.688 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:52:54.689 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:53:54.688 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:53:54.689 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:54:54.690 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:54:54.692 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:55:54.691 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:55:54.692 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:56:54.691 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:56:54.691 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:56:54.692 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:56:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:56:54.692 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:56:54.692 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:56:54.692 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:57:54.691 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:57:54.692 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:58:54.691 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 19:59:54.691 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 19:59:54.691 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 19:59:54.691 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 19:59:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 19:59:54.692 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 19:59:54.692 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 19:59:54.692 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:00:54.692 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:00:54.692 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:00:54.692 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:00:54.692 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:00:54.693 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:00:54.693 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:00:54.693 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:01:54.692 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:01:54.693 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:02:54.693 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:02:54.694 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:03:54.694 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:03:54.695 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:04:54.695 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:04:54.696 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:05:54.696 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:05:54.697 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:06:54.696 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:06:54.697 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:07:54.696 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:07:54.697 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:08:54.699 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:08:54.699 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:08:54.699 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:08:54.699 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:08:54.700 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:08:54.700 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:08:54.700 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:09:54.700 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:09:54.700 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:09:54.700 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:09:54.701 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:09:54.701 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:09:54.701 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:09:54.701 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:10:54.700 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:10:54.701 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:11:54.701 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:11:54.702 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:12:54.702 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:12:54.703 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:12:54.704 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:12:54.704 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:12:54.704 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:12:54.704 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:12:54.704 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:13:54.704 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:13:54.704 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:13:54.704 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:13:54.704 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:13:54.705 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:13:54.705 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:13:54.705 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:14:54.704 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:14:54.705 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:15:54.705 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:15:54.706 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:16:54.705 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:16:54.706 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:17:54.706 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:17:54.706 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:17:54.706 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:17:54.706 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:17:54.706 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:17:54.707 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:17:54.707 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:18:54.706 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:18:54.707 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:19:54.707 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:19:54.708 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:20:54.708 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:20:54.709 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:21:54.708 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:22:54.709 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:22:54.710 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:23:54.710 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:23:54.710 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:23:54.711 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:23:54.711 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:23:54.711 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:23:54.711 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:23:54.711 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:24:54.711 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:24:54.711 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:24:54.712 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:24:54.712 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:24:54.712 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:24:54.712 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:24:54.712 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:25:54.711 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:25:54.712 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:25:54.712 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:25:54.712 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:25:54.713 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:25:54.713 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:25:54.713 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:26:54.712 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:26:54.713 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:27:54.713 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:27:54.714 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:28:54.714 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:28:54.715 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:29:54.714 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:29:54.715 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:30:54.715 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:30:54.716 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:31:54.717 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:31:54.718 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:32:54.717 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:32:54.718 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:33:54.719 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:33:54.720 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:34:54.722 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:34:54.723 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:35:54.723 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:35:54.724 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:36:54.724 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:36:54.724 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:36:54.724 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:36:54.725 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:36:54.725 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:36:54.725 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:36:54.725 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:37:54.725 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:37:54.725 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:37:54.726 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:37:54.726 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:37:54.726 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:37:54.726 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:37:54.726 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:38:54.727 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:38:54.727 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:38:54.727 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:38:54.728 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:38:54.728 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:38:54.728 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:38:54.728 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:39:54.728 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:40:54.729 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:40:54.729 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:40:54.729 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:40:54.730 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:40:54.730 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:40:54.730 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:40:54.730 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:41:54.729 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:41:54.730 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:42:54.730 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:42:54.731 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:43:54.731 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:43:54.732 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:44:54.733 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:44:54.733 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:44:54.734 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:44:54.734 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:44:54.734 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:44:54.734 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:44:54.734 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:45:54.734 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:45:54.735 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:46:54.734 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:46:54.735 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:47:54.735 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:47:54.735 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:47:54.735 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:47:54.736 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:47:54.736 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:47:54.736 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:47:54.736 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:48:54.736 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:48:54.736 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:48:54.736 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:48:54.736 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:48:54.736 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:48:54.737 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:48:54.737 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:49:18.288 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 20:49:54.737 - warn: javascript.0 (96249) You are assigning a number to the state "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log" which expects a string. Please fix your code to use a string or change the state type to number. This warning might become an error in future versions.
+2024-06-11 20:49:54.737 - warn: javascript.0 (96249) at setState (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:1975:20)
+2024-06-11 20:49:54.738 - warn: javascript.0 (96249) at setKelvin (script.js.common.LichtfarbeUndHelligkeit:226:5)
+2024-06-11 20:49:54.738 - warn: javascript.0 (96249) at Object. (script.js.common.LichtfarbeUndHelligkeit:86:13)
+2024-06-11 20:49:54.738 - warn: javascript.0 (96249) at Timeout._onTimeout (/opt/iobroker/node_modules/iobroker.javascript/lib/sandbox.js:3043:34)
+2024-06-11 20:49:54.738 - warn: javascript.0 (96249) at listOnTimeout (node:internal/timers:569:17)
+2024-06-11 20:49:54.738 - warn: javascript.0 (96249) at processTimers (node:internal/timers:512:7)
+2024-06-11 20:50:05.996 - warn: admin.0 (96207) Object javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log is invalid: Default value has to be type "number" but received type "string"
+2024-06-11 20:50:05.996 - warn: admin.0 (96207) This object will not be created in future versions. Please report this to the developer.
+2024-06-11 20:53:59.341 - error: cloud.0 (96309) Ping timeout
+2024-06-11 20:53:59.341 - info: cloud.0 (96309) Connection changed: Ping timeout
+2024-06-11 20:53:59.342 - info: cloud.0 (96309) Connection lost
+2024-06-11 20:54:29.348 - info: cloud.0 (96309) Trying to connect as system.user.admin to cloud
+2024-06-11 20:54:29.714 - info: cloud.0 (96309) Connection changed: connect
+2024-06-11 20:54:37.404 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 20:54:37.405 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 20:54:37.406 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 admin
+2024-06-11 20:54:37.407 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 20:55:06.563 - info: web.0 (96477) <== Disconnect system.user.admin from ::ffff:192.168.19.243
+2024-06-11 20:55:28.783 - error: javascript.0 (96249) script.js.common.speedtest: Speedtest konnte nicht ausgeführt werden! Error: Command failed: /etc/speedtest/speedtest -f json --accept-license --accept-gdpr -s 28602
+2024-06-11 20:55:34.717 - error: cloud.0 (96309) Ping timeout
+2024-06-11 20:55:34.717 - info: cloud.0 (96309) Connection changed: Ping timeout
+2024-06-11 20:55:34.718 - info: cloud.0 (96309) Connection lost
+2024-06-11 20:55:47.256 - warn: hass.0 (96435) State "hass.0.entities.media_player.sonos_roam.media_position" has no existing object, this might lead to an error in future versions
+2024-06-11 20:55:47.261 - warn: hass.0 (96435) State "hass.0.entities.media_player.sonos_roam.media_position_updated_at" has no existing object, this might lead to an error in future versions
+2024-06-11 20:55:47.303 - warn: hass.0 (96435) State "hass.0.entities.media_player.hauptschlafzimmer.media_position" has no existing object, this might lead to an error in future versions
+2024-06-11 20:55:47.306 - warn: hass.0 (96435) State "hass.0.entities.media_player.hauptschlafzimmer.media_position_updated_at" has no existing object, this might lead to an error in future versions
+2024-06-11 20:55:47.311 - warn: hass.0 (96435) State "hass.0.entities.media_player.wohnzimmer.media_position" has no existing object, this might lead to an error in future versions
+2024-06-11 20:55:47.311 - warn: hass.0 (96435) State "hass.0.entities.media_player.wohnzimmer.media_position_updated_at" has no existing object, this might lead to an error in future versions
+2024-06-11 20:56:04.723 - info: cloud.0 (96309) Trying to connect as system.user.admin to cloud
+2024-06-11 20:56:05.078 - info: cloud.0 (96309) Connection changed: connect
+2024-06-11 20:56:43.609 - info: web.0 (96477) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 20:56:44.784 - info: homekit-controller.0 (96507) Device IP-60:01:28:ED:B1:C2 data polling failed (1): Timeout
+2024-06-11 20:56:48.576 - info: homekit-controller.0 (96507) Device IP-74:CB:07:30:E8:EF data polling failed (1): Timeout
+2024-06-11 20:56:50.838 - info: homekit-controller.0 (96507) Device IP-13:7D:18:F0:01:DF data polling failed (1): Timeout
+2024-06-11 20:56:52.770 - info: homekit-controller.0 (96507) Device IP-E1:1E:37:29:F8:CD data polling failed (1): Timeout
+2024-06-11 20:56:54.515 - info: homekit-controller.0 (96507) Device IP-D5:B7:53:52:1B:10 data polling failed (1): Timeout
+2024-06-11 20:56:57.484 - info: homekit-controller.0 (96507) Device IP-4C:28:26:99:C0:65 data polling failed (1): Timeout
+2024-06-11 20:57:00.587 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 20:57:00.613 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 20:57:00.658 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 20:57:00.753 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 21:00:44.787 - info: homekit-controller.0 (96507) Device IP-60:01:28:ED:B1:C2 data polling failed (2): Timeout
+2024-06-11 21:00:48.579 - info: homekit-controller.0 (96507) Device IP-74:CB:07:30:E8:EF data polling failed (2): Timeout
+2024-06-11 21:00:50.842 - info: homekit-controller.0 (96507) Device IP-13:7D:18:F0:01:DF data polling failed (2): Timeout
+2024-06-11 21:00:52.773 - info: homekit-controller.0 (96507) Device IP-E1:1E:37:29:F8:CD data polling failed (2): Timeout
+2024-06-11 21:00:54.517 - info: homekit-controller.0 (96507) Device IP-D5:B7:53:52:1B:10 data polling failed (2): Timeout
+2024-06-11 21:00:57.487 - info: homekit-controller.0 (96507) Device IP-4C:28:26:99:C0:65 data polling failed (2): Timeout
+2024-06-11 21:04:44.792 - info: homekit-controller.0 (96507) Device IP-60:01:28:ED:B1:C2 data polling failed (3): Timeout
+2024-06-11 21:04:48.582 - info: homekit-controller.0 (96507) Device IP-74:CB:07:30:E8:EF data polling failed (3): Timeout
+2024-06-11 21:04:50.844 - info: homekit-controller.0 (96507) Device IP-13:7D:18:F0:01:DF data polling failed (3): Timeout
+2024-06-11 21:04:52.776 - info: homekit-controller.0 (96507) Device IP-E1:1E:37:29:F8:CD data polling failed (3): Timeout
+2024-06-11 21:04:54.520 - info: homekit-controller.0 (96507) Device IP-D5:B7:53:52:1B:10 data polling failed (3): Timeout
+2024-06-11 21:04:57.489 - info: homekit-controller.0 (96507) Device IP-4C:28:26:99:C0:65 data polling failed (3): Timeout
+2024-06-11 21:05:57.178 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 21:06:04.603 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 21:07:17.389 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 21:07:38.763 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 21:08:44.794 - info: homekit-controller.0 (96507) Device IP-60:01:28:ED:B1:C2 data polling failed (4): Timeout
+2024-06-11 21:08:44.795 - warn: homekit-controller.0 (96507) Device IP-60:01:28:ED:B1:C2 had too many errors, reinitialize connection
+2024-06-11 21:08:46.201 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:08:48.583 - info: homekit-controller.0 (96507) Device IP-74:CB:07:30:E8:EF data polling failed (4): Timeout
+2024-06-11 21:08:48.584 - warn: homekit-controller.0 (96507) Device IP-74:CB:07:30:E8:EF had too many errors, reinitialize connection
+2024-06-11 21:08:50.847 - info: homekit-controller.0 (96507) Device IP-13:7D:18:F0:01:DF data polling failed (4): Timeout
+2024-06-11 21:08:50.847 - warn: homekit-controller.0 (96507) Device IP-13:7D:18:F0:01:DF had too many errors, reinitialize connection
+2024-06-11 21:08:52.780 - info: homekit-controller.0 (96507) Device IP-E1:1E:37:29:F8:CD data polling failed (4): Timeout
+2024-06-11 21:08:52.780 - warn: homekit-controller.0 (96507) Device IP-E1:1E:37:29:F8:CD had too many errors, reinitialize connection
+2024-06-11 21:08:54.520 - info: homekit-controller.0 (96507) Device IP-D5:B7:53:52:1B:10 data polling failed (4): Timeout
+2024-06-11 21:08:54.521 - warn: homekit-controller.0 (96507) Device IP-D5:B7:53:52:1B:10 had too many errors, reinitialize connection
+2024-06-11 21:08:57.491 - info: homekit-controller.0 (96507) Device IP-4C:28:26:99:C0:65 data polling failed (4): Timeout
+2024-06-11 21:08:57.491 - warn: homekit-controller.0 (96507) Device IP-4C:28:26:99:C0:65 had too many errors, reinitialize connection
+2024-06-11 21:10:47.564 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:12:47.683 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:14:47.791 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:16:47.911 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:17:19.828 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 21:17:19.910 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 21:17:52.711 - info: host.iobroker stopInstance system.adapter.javascript.0 (force=false, process=true)
+2024-06-11 21:17:52.783 - info: host.iobroker stopInstance system.adapter.javascript.0 send kill signal
+2024-06-11 21:17:53.255 - info: host.iobroker instance system.adapter.javascript.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-06-11 21:17:55.806 - info: host.iobroker instance system.adapter.javascript.0 started with pid 99314
+2024-06-11 21:17:56.963 - info: javascript.0 (99314) starting. Version 8.3.1 in /opt/iobroker/node_modules/iobroker.javascript, node: v18.17.1, js-controller: 5.0.19
+2024-06-11 21:17:57.257 - info: javascript.0 (99314) requesting all states
+2024-06-11 21:17:57.259 - info: javascript.0 (99314) requesting all objects
+2024-06-11 21:17:57.714 - info: javascript.0 (99314) received all objects
+2024-06-11 21:17:57.715 - info: javascript.0 (99314) received all states
+2024-06-11 21:17:57.790 - info: javascript.0 (99314) Start JavaScript script.js.Bad_Anwesenheit_Licht (Blockly)
+2024-06-11 21:17:57.810 - info: javascript.0 (99314) script.js.Bad_Anwesenheit_Licht: registered 1 subscription, 0 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.810 - info: javascript.0 (99314) Start JavaScript script.js.common.LichtfarbeUndHelligkeit (Javascript/js)
+2024-06-11 21:17:57.814 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: subscribe: {"pattern":{"id":"javascript.0.script.js.common.Astro.Tageszeit.current","change":"any","q":0},"name":"script.js.common.LichtfarbeUndHelligkeit"}
+2024-06-11 21:17:57.815 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: startTimer
+2024-06-11 21:17:57.815 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: getState(id=javascript.0.script.js.common.Astro.Tageszeit.current, timerId=undefined) => {"val":"Sonnenuntergang","ack":false,"ts":1718133453635,"q":0,"c":"script.js.common.Astro","from":"system.adapter.javascript.0","user":"system.user.admin","lc":1718133453635}
+2024-06-11 21:17:57.815 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: setForeignState(id=javascript.0.script.js.common.Astro.Tageszeit.current, state={"val":"Sonnenuntergang","ack":false,"ts":1718133477815,"q":0,"from":"system.adapter.javascript.0","lc":1718133453635,"c":"script.js.common.LichtfarbeUndHelligkeit"})
+2024-06-11 21:17:57.816 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: registered 1 subscription, 0 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.816 - info: javascript.0 (99314) Start JavaScript script.js.common.Dynamisches_Licht (Javascript/js)
+2024-06-11 21:17:57.824 - info: javascript.0 (99314) script.js.common.Dynamisches_Licht: Logger
+2024-06-11 21:17:57.825 - info: javascript.0 (99314) script.js.common.Dynamisches_Licht: Logger3
+2024-06-11 21:17:57.825 - info: javascript.0 (99314) script.js.common.Dynamisches_Licht: registered 1 subscription, 0 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.849 - info: javascript.0 (99314) Start JavaScript script.js.common.Astro (Javascript/js)
+2024-06-11 21:17:57.877 - info: javascript.0 (99314) script.js.common.Astro: registered 0 subscriptions, 11 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.878 - info: javascript.0 (99314) Start JavaScript script.js.Kueche_Anwesenheit_Licht (Blockly)
+2024-06-11 21:17:57.879 - info: javascript.0 (99314) script.js.Kueche_Anwesenheit_Licht: registered 1 subscription, 0 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.888 - info: javascript.0 (99314) Start JavaScript script.js.common.speedtest (Javascript/js)
+2024-06-11 21:17:57.890 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest: Erster Start des Skriptes! Datenpunkte werden erstellt!
+2024-06-11 21:17:57.892 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest: Datenpunkte erstellt! Erster Speedtest wird in 30 Sekunden ausgeführt!
+2024-06-11 21:17:57.892 - info: javascript.0 (99314) script.js.common.speedtest: setTimeout(ms=30000)
+2024-06-11 21:17:57.893 - info: javascript.0 (99314) script.js.common.speedtest: schedule(cron=*/5 * * * *)
+2024-06-11 21:17:57.893 - info: javascript.0 (99314) script.js.common.speedtest: registered 0 subscriptions, 1 schedule, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.909 - info: javascript.0 (99314) Start JavaScript script.js.Flur_Anwesenheit_Licht (Blockly)
+2024-06-11 21:17:57.911 - info: javascript.0 (99314) script.js.Flur_Anwesenheit_Licht: registered 1 subscription, 0 schedules, 0 messages, 0 logs and 0 file subscriptions
+2024-06-11 21:17:57.926 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: ASTRO_DAYTIME: Sonnenuntergang
+2024-06-11 21:17:57.936 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: State missing: Sonnenuntergang
+2024-06-11 21:17:57.979 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: ASTRO_DAYTIME: nächsten Wechsel abwarten
+2024-06-11 21:17:57.980 - info: javascript.0 (99314) script.js.common.LichtfarbeUndHelligkeit: State missing: nächsten Wechsel abwarten
+2024-06-11 21:18:27.893 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest mit Server 28602 gestartet! Der Test dauert zwischen 10 - 20 Sekunden!
+2024-06-11 21:18:27.893 - info: javascript.0 (99314) script.js.common.speedtest: exec(cmd=/etc/speedtest/speedtest -f json --accept-license --accept-gdpr -s 28602)
+2024-06-11 21:18:48.022 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:18:55.788 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.JSON_Output, state={"val":"{\"type\":\"result\",\"timestamp\":\"2024-06-11T19:18:55Z\",\"ping\":{\"jitter\":0.929,\"latency\":55.808,\"low\":55.001,\"high\":56.362},\"download\":{\"bandwidth\":11562423,\"bytes\":123161760,\"elapsed\":11106,\"latency\":{\"iqm\":130.114,\"low\":52.364,\"high\":212.188,\"jitter\":42.910}},\"upload\":{\"bandwidth\":10921954,\"bytes\":34927200,\"elapsed\":3410,\"latency\":{\"iqm\":147.828,\"low\":53.115,\"high\":274.261,\"jitter\":47.144}},\"packetLoss\":0,\"isp\":\"Telefonica de Espana Static IP\",\"interface\":{\"internalIp\":\"192.168.19.3\",\"name\":\"ens18\",\"macAddr\":\"BC:24:11:2C:03:BD\",\"isVpn\":false,\"externalIp\":\"88.18.102.204\"},\"server\":{\"id\":28602,\"host\":\"speedtest.stw-bonn.de\",\"port\":8080,\"name\":\"StudNet Bonn\",\"location\":\"Bonn\",\"country\":\"Germany\",\"ip\":\"212.201.68.60\"},\"result\":{\"id\":\"a230599c-9578-4237-8a81-b4844bfeef3d\",\"url\":\"https://www.speedtest.net/result/c/a230599c-9578-4237-8a81-b4844bfeef3d\",\"persisted\":true}}\n","ack":true,"ts":1718133535788,"q":0,"from":"system.adapter.javascript.0","lc":1718133535788,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.788 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Ping, state={"val":55.808,"ack":true,"ts":1718133535788,"q":0,"from":"system.adapter.javascript.0","lc":1718133535788,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Jitter, state={"val":0.929,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Download_MBit, state={"val":92.5,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Upload_MBit, state={"val":87.38,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Download_MB, state={"val":11.03,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Upload_MB, state={"val":10.42,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.OriginalDownload, state={"val":11562423,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.789 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.OriginalUpload, state={"val":10921954,"ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718133535789,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.ISP, state={"val":"Telefonica de Espana Static IP","ack":true,"ts":1718133535789,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.IP, state={"val":"88.18.102.204","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.URL, state={"val":"https://www.speedtest.net/result/c/a230599c-9578-4237-8a81-b4844bfeef3d","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718133535790,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.ID, state={"val":"a230599c-9578-4237-8a81-b4844bfeef3d","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718133535790,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.ServerID, state={"val":28602,"ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.ServerIP, state={"val":"212.201.68.60","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Name, state={"val":"StudNet Bonn","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Stadt, state={"val":"Bonn","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.790 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Land, state={"val":"Germany","ack":true,"ts":1718133535790,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Adresse, state={"val":"speedtest.stw-bonn.de","ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Download, state={"val":117.46,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Upload, state={"val":33.31,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.OriginalDownload, state={"val":123161760,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.OriginalUpload, state={"val":34927200,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.DauerDownload, state={"val":11.11,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.791 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.DauerUpload, state={"val":3.41,"ack":true,"ts":1718133535791,"q":0,"from":"system.adapter.javascript.0","lc":1718133535791,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.792 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Letzter_Speedtest, state={"val":"11.06.2024 21:18:55","ack":true,"ts":1718133535792,"q":0,"from":"system.adapter.javascript.0","lc":1718133535792,"c":"script.js.common.speedtest"})
+2024-06-11 21:18:55.792 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest durchgeführt. Ergebnisse: Download: 11.03 MB/s | Upload: 10.42 MB/s | Ping: 55.808ms
+2024-06-11 21:19:40.111 - error: cloud.0 (96309) Ping timeout
+2024-06-11 21:19:40.111 - info: cloud.0 (96309) Connection changed: Ping timeout
+2024-06-11 21:19:40.111 - info: cloud.0 (96309) Connection lost
+2024-06-11 21:20:00.016 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest mit Server 28602 gestartet! Der Test dauert zwischen 10 - 20 Sekunden!
+2024-06-11 21:20:00.016 - info: javascript.0 (99314) script.js.common.speedtest: exec(cmd=/etc/speedtest/speedtest -f json --accept-license --accept-gdpr -s 28602)
+2024-06-11 21:20:10.119 - info: cloud.0 (96309) Trying to connect as system.user.admin to cloud
+2024-06-11 21:20:10.676 - info: cloud.0 (96309) Connection changed: connect
+2024-06-11 21:20:29.580 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.JSON_Output, state={"val":"{\"type\":\"result\",\"timestamp\":\"2024-06-11T19:20:29Z\",\"ping\":{\"jitter\":0.326,\"latency\":56.267,\"low\":55.759,\"high\":56.434},\"download\":{\"bandwidth\":11554631,\"bytes\":119661120,\"elapsed\":10815,\"latency\":{\"iqm\":125.526,\"low\":53.958,\"high\":281.709,\"jitter\":40.802}},\"upload\":{\"bandwidth\":11352398,\"bytes\":51975360,\"elapsed\":4872,\"latency\":{\"iqm\":162.332,\"low\":57.224,\"high\":272.205,\"jitter\":52.728}},\"packetLoss\":0,\"isp\":\"Telefonica de Espana Static IP\",\"interface\":{\"internalIp\":\"192.168.19.3\",\"name\":\"ens18\",\"macAddr\":\"BC:24:11:2C:03:BD\",\"isVpn\":false,\"externalIp\":\"88.18.102.204\"},\"server\":{\"id\":28602,\"host\":\"speedtest.stw-bonn.de\",\"port\":8080,\"name\":\"StudNet Bonn\",\"location\":\"Bonn\",\"country\":\"Germany\",\"ip\":\"212.201.68.60\"},\"result\":{\"id\":\"c40a2b29-5a36-4ca4-a24c-bf71b5747a05\",\"url\":\"https://www.speedtest.net/result/c/c40a2b29-5a36-4ca4-a24c-bf71b5747a05\",\"persisted\":true}}\n","ack":true,"ts":1718133629580,"q":0,"from":"system.adapter.javascript.0","lc":1718133629580,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.581 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Ping, state={"val":56.267,"ack":true,"ts":1718133629581,"q":0,"from":"system.adapter.javascript.0","lc":1718133629581,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.581 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Jitter, state={"val":0.326,"ack":true,"ts":1718133629581,"q":0,"from":"system.adapter.javascript.0","lc":1718133629581,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.581 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Download_MBit, state={"val":92.44,"ack":true,"ts":1718133629581,"q":0,"from":"system.adapter.javascript.0","lc":1718133629581,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.581 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Upload_MBit, state={"val":90.82,"ack":true,"ts":1718133629581,"q":0,"from":"system.adapter.javascript.0","lc":1718133629581,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.581 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Download_MB, state={"val":11.02,"ack":true,"ts":1718133629581,"q":0,"from":"system.adapter.javascript.0","lc":1718133629581,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.584 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.Upload_MB, state={"val":10.83,"ack":true,"ts":1718133629584,"q":0,"from":"system.adapter.javascript.0","lc":1718133629584,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.OriginalDownload, state={"val":11554631,"ack":true,"ts":1718133629584,"q":0,"from":"system.adapter.javascript.0","lc":1718133629584,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.OriginalUpload, state={"val":11352398,"ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718133629585,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.ISP, state={"val":"Telefonica de Espana Static IP","ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.IP, state={"val":"88.18.102.204","ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.URL, state={"val":"https://www.speedtest.net/result/c/c40a2b29-5a36-4ca4-a24c-bf71b5747a05","ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718133629585,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Ergebnisse.ID, state={"val":"c40a2b29-5a36-4ca4-a24c-bf71b5747a05","ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718133629585,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.ServerID, state={"val":28602,"ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.585 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.ServerIP, state={"val":"212.201.68.60","ack":true,"ts":1718133629585,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.586 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Name, state={"val":"StudNet Bonn","ack":true,"ts":1718133629586,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.586 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Stadt, state={"val":"Bonn","ack":true,"ts":1718133629586,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.586 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Land, state={"val":"Germany","ack":true,"ts":1718133629586,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.586 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Server.Adresse, state={"val":"speedtest.stw-bonn.de","ack":true,"ts":1718133629586,"q":0,"from":"system.adapter.javascript.0","lc":1718006434052,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.586 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Download, state={"val":114.12,"ack":true,"ts":1718133629586,"q":0,"from":"system.adapter.javascript.0","lc":1718133629586,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.587 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Upload, state={"val":49.57,"ack":true,"ts":1718133629587,"q":0,"from":"system.adapter.javascript.0","lc":1718133629587,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.587 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.OriginalDownload, state={"val":119661120,"ack":true,"ts":1718133629587,"q":0,"from":"system.adapter.javascript.0","lc":1718133629587,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.587 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.OriginalUpload, state={"val":51975360,"ack":true,"ts":1718133629587,"q":0,"from":"system.adapter.javascript.0","lc":1718133629587,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.587 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.DauerDownload, state={"val":10.81,"ack":true,"ts":1718133629587,"q":0,"from":"system.adapter.javascript.0","lc":1718133629587,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.588 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.DauerUpload, state={"val":4.87,"ack":true,"ts":1718133629588,"q":0,"from":"system.adapter.javascript.0","lc":1718133629588,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.588 - info: javascript.0 (99314) script.js.common.speedtest: setForeignState(id=javascript.0.Speedtest.Test.Daten.Letzter_Speedtest, state={"val":"11.06.2024 21:20:29","ack":true,"ts":1718133629588,"q":0,"from":"system.adapter.javascript.0","lc":1718133629588,"c":"script.js.common.speedtest"})
+2024-06-11 21:20:29.588 - info: javascript.0 (99314) script.js.common.speedtest: Speedtest durchgeführt. Ergebnisse: Download: 11.02 MB/s | Upload: 10.83 MB/s | Ping: 56.267ms
+2024-06-11 21:20:48.141 - info: homekit-controller.0 (96507) State value to set for "homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected" has to be type "number" but received type "boolean"
+2024-06-11 21:21:37.672 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 21:21:40.530 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 javascript
+2024-06-11 21:21:40.592 - error: host.iobroker cannot call visUtils: Not exists
+2024-06-11 21:21:49.224 - info: admin.0 (96207) ==> Connected system.user.admin from ::ffff:192.168.19.243
+2024-06-11 21:21:52.900 - info: host.iobroker stopInstance system.adapter.homekit-controller.0 (force=false, process=true)
+2024-06-11 21:21:52.902 - info: homekit-controller.0 (96507) Got terminate signal TERMINATE_YOURSELF
+2024-06-11 21:21:52.910 - info: homekit-controller.0 (96507) terminating
+2024-06-11 21:21:52.910 - info: homekit-controller.0 (96507) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-06-11 21:21:52.962 - info: host.iobroker stopInstance system.adapter.homekit-controller.0 send kill signal
+2024-06-11 21:21:53.406 - info: homekit-controller.0 (96507) terminating
+2024-06-11 21:21:53.440 - info: host.iobroker instance system.adapter.homekit-controller.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-06-11 21:21:55.987 - info: host.iobroker instance system.adapter.homekit-controller.0 started with pid 99399
+2024-06-11 21:21:56.610 - debug: homekit-controller.0 (99399) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2024-06-11 21:21:56.633 - debug: homekit-controller.0 (99399) Objects client ready ... initialize now
+2024-06-11 21:21:56.634 - debug: homekit-controller.0 (99399) Objects create System PubSub Client
+2024-06-11 21:21:56.635 - debug: homekit-controller.0 (99399) Objects create User PubSub Client
+2024-06-11 21:21:56.647 - debug: homekit-controller.0 (99399) Objects client initialize lua scripts
+2024-06-11 21:21:56.651 - debug: homekit-controller.0 (99399) Objects connected to redis: 127.0.0.1:9001
+2024-06-11 21:21:56.663 - debug: homekit-controller.0 (99399) Redis States: Use Redis connection: 127.0.0.1:9000
+2024-06-11 21:21:56.710 - debug: homekit-controller.0 (99399) States create System PubSub Client
+2024-06-11 21:21:56.710 - debug: homekit-controller.0 (99399) States create User PubSub Client
+2024-06-11 21:21:56.783 - debug: homekit-controller.0 (99399) States connected to redis: 127.0.0.1:9000
+2024-06-11 21:21:56.801 - debug: homekit-controller.0 (99399) Plugin sentry Initialize Plugin (enabled=true)
+2024-06-11 21:21:57.027 - info: homekit-controller.0 (99399) starting. Version 0.5.10 in /opt/iobroker/node_modules/iobroker.homekit-controller, node: v18.17.1, js-controller: 5.0.19
+2024-06-11 21:21:57.111 - debug: homekit-controller.0 (99399) Init 9 known devices without discovery ...
+2024-06-11 21:21:57.111 - debug: homekit-controller.0 (99399) Init IP-EC:CE:91:B3:BA:29 as known device
+2024-06-11 21:21:57.112 - debug: homekit-controller.0 (99399) IP-EC:CE:91:B3:BA:29 Start Homekit Device Client initialization on 192.168.19.98:50862
+2024-06-11 21:21:57.113 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-BB7E","address":"192.168.19.98","allAddresses":["192.168.19.98","fe80::56ef:44ff:fe5a:bb7e"],"port":50862,"c#":2,"ff":2,"id":"EC:CE:91:B3:BA:29","md":"PS-S02E","pv":"1.1","s#":14,"sf":0,"ci":10,"availableToPair":false}
+2024-06-11 21:21:57.118 - debug: homekit-controller.0 (99399) IP-EC:CE:91:B3:BA:29 Request Accessory information
+2024-06-11 21:21:57.195 - warn: homekit-controller.0 (99399) IP-EC:CE:91:B3:BA:29 Could not initialize device: connect ECONNREFUSED 192.168.19.98:50862 Error: connect ECONNREFUSED 192.168.19.98:50862
+at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2024-06-11 21:21:57.196 - debug: homekit-controller.0 (99399) Init IP-60:01:28:ED:B1:C2 as known device
+2024-06-11 21:21:57.196 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 Start Homekit Device Client initialization on 192.168.19.136:58226
+2024-06-11 21:21:57.196 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-E64F","address":"192.168.19.136","allAddresses":["192.168.19.136","fe80::56ef:44ff:fe5a:e64f"],"port":58226,"c#":2,"ff":2,"id":"60:01:28:ED:B1:C2","md":"PS-S02E","pv":"1.1","s#":26,"sf":0,"ci":10,"availableToPair":false}
+2024-06-11 21:21:57.202 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 Request Accessory information
+2024-06-11 21:21:57.203 - info: admin.0 (96207) <== Disconnect system.user.admin from ::ffff:192.168.19.243 homekit-controller
+2024-06-11 21:21:58.428 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","format":"bool","perms":["pw"]},{"iid":3,"type":"00000020-0000-1000-8000-0026BB765291","format":"string","value":"Aqara","perms":["pr"],"ev":false,"enc":false},{"iid":4,"type":"00000021-0000-1000-8000-0026BB765291","format":"string","value":"PS-S02E","perms":["pr"],"ev":false,"enc":false},{"iid":5,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence-Sensor-FP2-E64F","perms":["pr"],"ev":false,"enc":false},{"iid":6,"type":"00000030-0000-1000-8000-0026BB765291","format":"string","value":"54EF445AE64F","perms":["pr"],"ev":false,"enc":false},{"iid":7,"type":"00000052-0000-1000-8000-0026BB765291","format":"string","value":"1.2.6","perms":["pr"],"ev":false,"enc":false},{"iid":8,"type":"00000053-0000-1000-8000-0026BB765291","format":"string","value":"1.0.0","perms":["pr"],"ev":false,"enc":false},{"iid":9,"type":"34AB8811-AC7F-4340-BAC3-FD6A85F9943B","format":"string","value":"6.1;6.1","perms":["pr","hd"],"ev":false,"enc":false},{"iid":10,"type":"00000220-0000-1000-8000-0026BB765291","format":"data","value":"xDsGOzOmv1k=","perms":["pr"],"ev":false,"enc":false,"maxDataLen":8}]},{"iid":16,"type":"000000A2-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":18,"type":"00000037-0000-1000-8000-0026BB765291","format":"string","value":"1.1.0","perms":["pr"],"ev":false,"enc":false}]},{"iid":64,"type":"0000022A-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":66,"type":"0000022B-0000-1000-8000-0026BB765291","format":"bool","value":1,"perms":["pr"],"ev":false,"enc":false},{"iid":67,"type":"0000022C-0000-1000-8000-0026BB765291","format":"uint32","value":9,"perms":["pr"],"ev":false,"enc":false,"minValue":0,"maxValue":15,"minStep":1},{"iid":68,"type":"0000022D-0000-1000-8000-0026BB765291","format":"tlv8","value":"","perms":["pr","pw","ev","tw","wr"],"ev":false,"enc":false}]},{"iid":2560,"type":"00000239-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2562,"type":"0000023C-0000-1000-8000-0026BB765291","format":"data","value":"","perms":["pr"],"ev":false,"enc":false,"maxDataLen":0}]},{"iid":80,"type":"9715BF53-AB63-4449-8DC7-2785D617390A","primary":false,"hidden":true,"characteristics":[{"iid":81,"type":"7D943F6A-E052-4E96-A176-D17BF00E32CB","format":"int","value":-1,"perms":["pr","ev","hd"],"ev":false,"enc":false,"description":"Firmware Update Status","minValue":-128,"maxValue":127,"minStep":1},{"iid":82,"type":"A45EFD52-0DB5-4C1A-9727-513FBCD8185F","format":"string","perms":["pw","hd"],"description":"Firmware Update URL","maxLen":256},{"iid":83,"type":"40F0124A-579D-40E4-865E-0EF6740EA64B","format":"string","perms":["pw","hd"],"description":"Firmware Update Checksum"},{"iid":85,"type":"96BF5F20-2996-4DB6-8D65-0E36314BCB6D","format":"string","value":"1.2.6","perms":["pr","hd"],"ev":false,"enc":false,"description":"Firmware Version"},{"iid":84,"type":"36B7A28B-3200-4783-A3FB-6714F11B1417","format":"string","value":"lumi.motion.agl001","perms":["pr","hd"],"ev":false,"enc":false,"description":"Device Model"},{"iid":86,"type":"F5329CB1-A50B-4225-BA9B-331449E7F7A9","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Selected IoT Platform","minValue":0,"maxValue":4,"minStep":1}]},{"iid":96,"type":"F49132D1-12DF-4119-87D3-A93E8D68531E","primary":false,"hidden":true,"characteristics":[{"iid":101,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"AIOT","perms":["pr","hd"],"ev":false,"enc":false,"description":"Name"},{"iid":97,"type":"25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C","format":"string","value":"","perms":["pr","pw","hd"],"ev":false,"enc":false,"description":"Country Domain"},{"iid":98,"type":"C7EECAA7-91D9-40EB-AD0C-FFDDE3143CB9","format":"string","value":"lumi1.54ef445ae64f","perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT did"},{"iid":99,"type":"80FA747E-CB45-45A4-B7BE-AA7D9964859E","format":"string","perms":["pw","hd"],"description":"AIOT bindkey"},{"iid":100,"type":"C3B8A329-EF0C-4739-B773-E5B7AEA52C71","format":"bool","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT bindstate"}]},{"iid":2672,"type":"00000084-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2673,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Light Sensor","perms":["pr"],"ev":false,"enc":false},{"iid":2674,"type":"0000006B-0000-1000-8000-0026BB765291","format":"float","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"unit":"lux","minValue":0,"maxValue":100000,"minStep":1}]},{"iid":2688,"type":"00000086-0000-1000-8000-0026BB765291","primary":true,"hidden":false,"characteristics":[{"iid":2689,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 1","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2690,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2691,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":0,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]}]}]}
+2024-06-11 21:21:58.519 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.accessory-information-1.product-data with Converter base64
+2024-06-11 21:21:58.526 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.wifi-transport-64.current-transport with Converter number-to-boolean
+2024-06-11 21:21:58.536 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.wifi-transport-64.wifi-configuration-control with Converter undefined and stateChangeFunction
+2024-06-11 21:21:58.542 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.accessory-runtime-information-2560.ping with Converter base64
+2024-06-11 21:21:58.551 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.A45EFD52-0DB5-4C1A-9727-513FBCD8185F with Converter undefined and stateChangeFunction
+2024-06-11 21:21:58.562 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.40F0124A-579D-40E4-865E-0EF6740EA64B with Converter undefined and stateChangeFunction
+2024-06-11 21:21:58.580 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C with Converter undefined and stateChangeFunction
+2024-06-11 21:21:58.592 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.80FA747E-CB45-45A4-B7BE-AA7D9964859E with Converter undefined and stateChangeFunction
+2024-06-11 21:21:58.597 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.C3B8A329-EF0C-4739-B773-E5B7AEA52C71 with Converter number-to-boolean
+2024-06-11 21:21:58.622 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 initialize Object homekit-controller.0.IP-60:01:28:ED:B1:C2.1.sensor-occupancy-2688.occupancy-detected with Converter number-to-boolean
+2024-06-11 21:21:58.638 - debug: homekit-controller.0 (99399) Device IP-60:01:28:ED:B1:C2 collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.8","1.9","1.10","1.66","1.67","1.68","1.2562","1.81","1.85","1.84","1.86","1.101","1.97","1.98","1.100","1.2673","1.2674","1.2689","1.2690","1.2691"]
+2024-06-11 21:21:58.639 - debug: homekit-controller.0 (99399) Device IP-60:01:28:ED:B1:C2 collected subscription IDs: ["1.68","1.81","1.2674","1.2690"]
+2024-06-11 21:21:59.755 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 Subscribed to 4 characteristics: {}
+2024-06-11 21:21:59.756 - debug: homekit-controller.0 (99399) Init IP-5E:FB:CA:59:AA:87 as known device
+2024-06-11 21:21:59.756 - info: homekit-controller.0 (99399) IP-5E:FB:CA:59:AA:87 (Presence-Sensor-FP2-922B) found without pairing data but available for pairing: Create basic objects
+2024-06-11 21:21:59.756 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-922B","address":"192.168.19.185","allAddresses":["192.168.19.185","fe80::56ef:44ff:fe52:922b"],"port":63410,"c#":2,"ff":2,"id":"5E:FB:CA:59:AA:87","md":"PS-S02E","pv":"1.1","s#":21,"sf":1,"ci":10,"availableToPair":true}
+2024-06-11 21:21:59.802 - debug: homekit-controller.0 (99399) Init IP-74:CB:07:30:E8:EF as known device
+2024-06-11 21:21:59.803 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF Start Homekit Device Client initialization on 192.168.19.185:56740
+2024-06-11 21:21:59.803 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-922B","address":"192.168.19.185","allAddresses":["192.168.19.185","fe80::56ef:44ff:fe52:922b"],"port":56740,"c#":3,"ff":2,"id":"74:CB:07:30:E8:EF","md":"PS-S02E","pv":"1.1","s#":9,"sf":0,"ci":10,"availableToPair":false}
+2024-06-11 21:21:59.810 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF Request Accessory information
+2024-06-11 21:22:00.992 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","format":"bool","perms":["pw"]},{"iid":3,"type":"00000020-0000-1000-8000-0026BB765291","format":"string","value":"Aqara","perms":["pr"],"ev":false,"enc":false},{"iid":4,"type":"00000021-0000-1000-8000-0026BB765291","format":"string","value":"PS-S02E","perms":["pr"],"ev":false,"enc":false},{"iid":5,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence-Sensor-FP2-922B","perms":["pr"],"ev":false,"enc":false},{"iid":6,"type":"00000030-0000-1000-8000-0026BB765291","format":"string","value":"54EF4452922B","perms":["pr"],"ev":false,"enc":false},{"iid":7,"type":"00000052-0000-1000-8000-0026BB765291","format":"string","value":"1.2.6","perms":["pr"],"ev":false,"enc":false},{"iid":8,"type":"00000053-0000-1000-8000-0026BB765291","format":"string","value":"1.0.0","perms":["pr"],"ev":false,"enc":false},{"iid":9,"type":"34AB8811-AC7F-4340-BAC3-FD6A85F9943B","format":"string","value":"6.1;6.1","perms":["pr","hd"],"ev":false,"enc":false},{"iid":10,"type":"00000220-0000-1000-8000-0026BB765291","format":"data","value":"xDsGOzOmv1k=","perms":["pr"],"ev":false,"enc":false,"maxDataLen":8}]},{"iid":16,"type":"000000A2-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":18,"type":"00000037-0000-1000-8000-0026BB765291","format":"string","value":"1.1.0","perms":["pr"],"ev":false,"enc":false}]},{"iid":64,"type":"0000022A-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":66,"type":"0000022B-0000-1000-8000-0026BB765291","format":"bool","value":1,"perms":["pr"],"ev":false,"enc":false},{"iid":67,"type":"0000022C-0000-1000-8000-0026BB765291","format":"uint32","value":9,"perms":["pr"],"ev":false,"enc":false,"minValue":0,"maxValue":15,"minStep":1},{"iid":68,"type":"0000022D-0000-1000-8000-0026BB765291","format":"tlv8","value":"","perms":["pr","pw","ev","tw","wr"],"ev":false,"enc":false}]},{"iid":2560,"type":"00000239-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2562,"type":"0000023C-0000-1000-8000-0026BB765291","format":"data","value":"","perms":["pr"],"ev":false,"enc":false,"maxDataLen":0}]},{"iid":80,"type":"9715BF53-AB63-4449-8DC7-2785D617390A","primary":false,"hidden":true,"characteristics":[{"iid":81,"type":"7D943F6A-E052-4E96-A176-D17BF00E32CB","format":"int","value":-1,"perms":["pr","ev","hd"],"ev":false,"enc":false,"description":"Firmware Update Status","minValue":-128,"maxValue":127,"minStep":1},{"iid":82,"type":"A45EFD52-0DB5-4C1A-9727-513FBCD8185F","format":"string","perms":["pw","hd"],"description":"Firmware Update URL","maxLen":256},{"iid":83,"type":"40F0124A-579D-40E4-865E-0EF6740EA64B","format":"string","perms":["pw","hd"],"description":"Firmware Update Checksum"},{"iid":85,"type":"96BF5F20-2996-4DB6-8D65-0E36314BCB6D","format":"string","value":"1.2.6","perms":["pr","hd"],"ev":false,"enc":false,"description":"Firmware Version"},{"iid":84,"type":"36B7A28B-3200-4783-A3FB-6714F11B1417","format":"string","value":"lumi.motion.agl001","perms":["pr","hd"],"ev":false,"enc":false,"description":"Device Model"},{"iid":86,"type":"F5329CB1-A50B-4225-BA9B-331449E7F7A9","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Selected IoT Platform","minValue":0,"maxValue":4,"minStep":1}]},{"iid":96,"type":"F49132D1-12DF-4119-87D3-A93E8D68531E","primary":false,"hidden":true,"characteristics":[{"iid":101,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"AIOT","perms":["pr","hd"],"ev":false,"enc":false,"description":"Name"},{"iid":97,"type":"25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C","format":"string","value":"coap-ger.aqara.com","perms":["pr","pw","hd"],"ev":false,"enc":false,"description":"Country Domain"},{"iid":98,"type":"C7EECAA7-91D9-40EB-AD0C-FFDDE3143CB9","format":"string","value":"lumi1.54ef4452922b","perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT did"},{"iid":99,"type":"80FA747E-CB45-45A4-B7BE-AA7D9964859E","format":"string","perms":["pw","hd"],"description":"AIOT bindkey"},{"iid":100,"type":"C3B8A329-EF0C-4739-B773-E5B7AEA52C71","format":"bool","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT bindstate"}]},{"iid":2672,"type":"00000084-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2673,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Light Sensor","perms":["pr"],"ev":false,"enc":false},{"iid":2674,"type":"0000006B-0000-1000-8000-0026BB765291","format":"float","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"unit":"lux","minValue":0,"maxValue":100000,"minStep":1}]},{"iid":2688,"type":"00000086-0000-1000-8000-0026BB765291","primary":true,"hidden":false,"characteristics":[{"iid":2689,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 1","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2690,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2691,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":0,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]},{"iid":2692,"type":"00000086-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2693,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 2","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2694,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2695,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]},{"iid":2696,"type":"00000086-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2697,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 3","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2698,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2699,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":2,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]}]}]}
+2024-06-11 21:22:01.082 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.wifi-transport-64.current-transport with Converter number-to-boolean
+2024-06-11 21:22:01.090 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.wifi-transport-64.wifi-configuration-control with Converter undefined and stateChangeFunction
+2024-06-11 21:22:01.103 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.A45EFD52-0DB5-4C1A-9727-513FBCD8185F with Converter undefined and stateChangeFunction
+2024-06-11 21:22:01.106 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.40F0124A-579D-40E4-865E-0EF6740EA64B with Converter undefined and stateChangeFunction
+2024-06-11 21:22:01.136 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C with Converter undefined and stateChangeFunction
+2024-06-11 21:22:01.151 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.80FA747E-CB45-45A4-B7BE-AA7D9964859E with Converter undefined and stateChangeFunction
+2024-06-11 21:22:01.153 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF initialize Object homekit-controller.0.IP-74:CB:07:30:E8:EF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.C3B8A329-EF0C-4739-B773-E5B7AEA52C71 with Converter number-to-boolean
+2024-06-11 21:22:01.248 - debug: homekit-controller.0 (99399) Device IP-74:CB:07:30:E8:EF collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.8","1.9","1.10","1.66","1.67","1.68","1.2562","1.81","1.85","1.84","1.86","1.101","1.97","1.98","1.100","1.2673","1.2674","1.2689","1.2690","1.2691","1.2693","1.2694","1.2695","1.2697","1.2698","1.2699"]
+2024-06-11 21:22:01.248 - debug: homekit-controller.0 (99399) Device IP-74:CB:07:30:E8:EF collected subscription IDs: ["1.68","1.81","1.2674","1.2690","1.2694","1.2698"]
+2024-06-11 21:22:02.332 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF Subscribed to 6 characteristics: {}
+2024-06-11 21:22:02.333 - debug: homekit-controller.0 (99399) Init IP-13:7D:18:F0:01:DF as known device
+2024-06-11 21:22:02.333 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF Start Homekit Device Client initialization on 192.168.19.98:62172
+2024-06-11 21:22:02.333 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-BB7E","address":"192.168.19.98","allAddresses":["192.168.19.98","fe80::56ef:44ff:fe5a:bb7e"],"port":62172,"c#":4,"ff":2,"id":"13:7D:18:F0:01:DF","md":"PS-S02E","pv":"1.1","s#":33,"sf":0,"ci":10,"availableToPair":false}
+2024-06-11 21:22:02.344 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF Request Accessory information
+2024-06-11 21:22:03.534 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","format":"bool","perms":["pw"]},{"iid":3,"type":"00000020-0000-1000-8000-0026BB765291","format":"string","value":"Aqara","perms":["pr"],"ev":false,"enc":false},{"iid":4,"type":"00000021-0000-1000-8000-0026BB765291","format":"string","value":"PS-S02E","perms":["pr"],"ev":false,"enc":false},{"iid":5,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence-Sensor-FP2-BB7E","perms":["pr"],"ev":false,"enc":false},{"iid":6,"type":"00000030-0000-1000-8000-0026BB765291","format":"string","value":"54EF445ABB7E","perms":["pr"],"ev":false,"enc":false},{"iid":7,"type":"00000052-0000-1000-8000-0026BB765291","format":"string","value":"1.2.6","perms":["pr"],"ev":false,"enc":false},{"iid":8,"type":"00000053-0000-1000-8000-0026BB765291","format":"string","value":"1.0.0","perms":["pr"],"ev":false,"enc":false},{"iid":9,"type":"34AB8811-AC7F-4340-BAC3-FD6A85F9943B","format":"string","value":"6.1;6.1","perms":["pr","hd"],"ev":false,"enc":false},{"iid":10,"type":"00000220-0000-1000-8000-0026BB765291","format":"data","value":"xDsGOzOmv1k=","perms":["pr"],"ev":false,"enc":false,"maxDataLen":8}]},{"iid":16,"type":"000000A2-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":18,"type":"00000037-0000-1000-8000-0026BB765291","format":"string","value":"1.1.0","perms":["pr"],"ev":false,"enc":false}]},{"iid":64,"type":"0000022A-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":66,"type":"0000022B-0000-1000-8000-0026BB765291","format":"bool","value":1,"perms":["pr"],"ev":false,"enc":false},{"iid":67,"type":"0000022C-0000-1000-8000-0026BB765291","format":"uint32","value":9,"perms":["pr"],"ev":false,"enc":false,"minValue":0,"maxValue":15,"minStep":1},{"iid":68,"type":"0000022D-0000-1000-8000-0026BB765291","format":"tlv8","value":"","perms":["pr","pw","ev","tw","wr"],"ev":false,"enc":false}]},{"iid":2560,"type":"00000239-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2562,"type":"0000023C-0000-1000-8000-0026BB765291","format":"data","value":"","perms":["pr"],"ev":false,"enc":false,"maxDataLen":0}]},{"iid":80,"type":"9715BF53-AB63-4449-8DC7-2785D617390A","primary":false,"hidden":true,"characteristics":[{"iid":81,"type":"7D943F6A-E052-4E96-A176-D17BF00E32CB","format":"int","value":-1,"perms":["pr","ev","hd"],"ev":false,"enc":false,"description":"Firmware Update Status","minValue":-128,"maxValue":127,"minStep":1},{"iid":82,"type":"A45EFD52-0DB5-4C1A-9727-513FBCD8185F","format":"string","perms":["pw","hd"],"description":"Firmware Update URL","maxLen":256},{"iid":83,"type":"40F0124A-579D-40E4-865E-0EF6740EA64B","format":"string","perms":["pw","hd"],"description":"Firmware Update Checksum"},{"iid":85,"type":"96BF5F20-2996-4DB6-8D65-0E36314BCB6D","format":"string","value":"1.2.6","perms":["pr","hd"],"ev":false,"enc":false,"description":"Firmware Version"},{"iid":84,"type":"36B7A28B-3200-4783-A3FB-6714F11B1417","format":"string","value":"lumi.motion.agl001","perms":["pr","hd"],"ev":false,"enc":false,"description":"Device Model"},{"iid":86,"type":"F5329CB1-A50B-4225-BA9B-331449E7F7A9","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Selected IoT Platform","minValue":0,"maxValue":4,"minStep":1}]},{"iid":96,"type":"F49132D1-12DF-4119-87D3-A93E8D68531E","primary":false,"hidden":true,"characteristics":[{"iid":101,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"AIOT","perms":["pr","hd"],"ev":false,"enc":false,"description":"Name"},{"iid":97,"type":"25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C","format":"string","value":"coap-ger.aqara.com","perms":["pr","pw","hd"],"ev":false,"enc":false,"description":"Country Domain"},{"iid":98,"type":"C7EECAA7-91D9-40EB-AD0C-FFDDE3143CB9","format":"string","value":"lumi1.54ef445abb7e","perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT did"},{"iid":99,"type":"80FA747E-CB45-45A4-B7BE-AA7D9964859E","format":"string","perms":["pw","hd"],"description":"AIOT bindkey"},{"iid":100,"type":"C3B8A329-EF0C-4739-B773-E5B7AEA52C71","format":"bool","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT bindstate"}]},{"iid":2672,"type":"00000084-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2673,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Light Sensor","perms":["pr"],"ev":false,"enc":false},{"iid":2674,"type":"0000006B-0000-1000-8000-0026BB765291","format":"float","value":5,"perms":["pr","ev"],"ev":false,"enc":false,"unit":"lux","minValue":0,"maxValue":100000,"minStep":1}]},{"iid":2688,"type":"00000086-0000-1000-8000-0026BB765291","primary":true,"hidden":false,"characteristics":[{"iid":2689,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 1","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2690,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2691,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":0,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]},{"iid":2692,"type":"00000086-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2693,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 2","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2694,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2695,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]},{"iid":2696,"type":"00000086-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2697,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 3","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2698,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2699,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":2,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]},{"iid":2700,"type":"00000086-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2701,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 4","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2702,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2703,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":3,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]}]}]}
+2024-06-11 21:22:03.657 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.wifi-transport-64.current-transport with Converter number-to-boolean
+2024-06-11 21:22:03.668 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.wifi-transport-64.wifi-configuration-control with Converter undefined and stateChangeFunction
+2024-06-11 21:22:03.694 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.A45EFD52-0DB5-4C1A-9727-513FBCD8185F with Converter undefined and stateChangeFunction
+2024-06-11 21:22:03.702 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.40F0124A-579D-40E4-865E-0EF6740EA64B with Converter undefined and stateChangeFunction
+2024-06-11 21:22:03.737 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C with Converter undefined and stateChangeFunction
+2024-06-11 21:22:03.748 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.80FA747E-CB45-45A4-B7BE-AA7D9964859E with Converter undefined and stateChangeFunction
+2024-06-11 21:22:03.750 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF initialize Object homekit-controller.0.IP-13:7D:18:F0:01:DF.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.C3B8A329-EF0C-4739-B773-E5B7AEA52C71 with Converter number-to-boolean
+2024-06-11 21:22:03.830 - debug: homekit-controller.0 (99399) Device IP-13:7D:18:F0:01:DF collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.8","1.9","1.10","1.66","1.67","1.68","1.2562","1.81","1.85","1.84","1.86","1.101","1.97","1.98","1.100","1.2673","1.2674","1.2689","1.2690","1.2691","1.2693","1.2694","1.2695","1.2697","1.2698","1.2699","1.2701","1.2702","1.2703"]
+2024-06-11 21:22:03.830 - debug: homekit-controller.0 (99399) Device IP-13:7D:18:F0:01:DF collected subscription IDs: ["1.68","1.81","1.2674","1.2690","1.2694","1.2698","1.2702"]
+2024-06-11 21:22:04.989 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF Subscribed to 7 characteristics: {}
+2024-06-11 21:22:04.989 - debug: homekit-controller.0 (99399) Init IP-E1:1E:37:29:F8:CD as known device
+2024-06-11 21:22:04.990 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD Start Homekit Device Client initialization on 192.168.19.15:80
+2024-06-11 21:22:04.990 - debug: homekit-controller.0 (99399) Service: {"name":"Sensibo-E14A88","address":"192.168.19.15","allAddresses":["192.168.19.15","fe80::72b8:f6ff:fee1:4a88"],"port":80,"c#":1,"ff":2,"id":"E1:1E:37:29:F8:CD","md":"Sensibo Air","pv":"1.1","s#":76,"sf":0,"ci":9,"availableToPair":false}
+2024-06-11 21:22:04.994 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD Request Accessory information
+2024-06-11 21:22:05.482 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","perms":["pw"],"ev":false,"format":"bool"},{"iid":3,"value":"Sensibo","type":"00000020-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":4,"value":"Sensibo Air","type":"00000021-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":5,"value":"Sensibo-E14A88","type":"00000023-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":6,"value":"LAYUEEUZZN","type":"00000030-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":7,"value":"114","type":"00000052-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":10,"value":"KlmrBr3BJc4=","type":"00000220-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"data"}]},{"iid":8,"type":"000000A2-0000-1000-8000-0026BB765291","characteristics":[{"iid":9,"value":"1.1.0","type":"00000037-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"}]},{"iid":11,"type":"0000004A-0000-1000-8000-0026BB765291","characteristics":[{"iid":12,"value":0,"type":"0000000F-0000-1000-8000-0026BB765291","perms":["pr","ev"],"ev":false,"format":"uint8","minValue":0,"maxValue":2,"minStep":1},{"iid":13,"value":0,"type":"00000033-0000-1000-8000-0026BB765291","perms":["pr","pw","ev"],"ev":false,"format":"uint8","minValue":0,"maxValue":3,"minStep":1},{"iid":14,"value":23.9084,"type":"00000011-0000-1000-8000-0026BB765291","perms":["pr","ev"],"ev":false,"format":"float","minValue":0,"maxValue":100,"minStep":0.1,"unit":"celsius"},{"iid":15,"value":24,"type":"00000035-0000-1000-8000-0026BB765291","perms":["pr","pw","ev"],"ev":false,"format":"float","minValue":10,"maxValue":38,"minStep":0.1,"unit":"celsius"},{"iid":16,"value":0,"type":"00000036-0000-1000-8000-0026BB765291","perms":["pr","pw","ev"],"ev":false,"format":"uint8","minValue":0,"maxValue":1,"minStep":1},{"iid":17,"value":"Sensibo Air","type":"00000023-0000-1000-8000-0026BB765291","perms":["pr"],"ev":false,"format":"string"},{"iid":18,"value":80,"type":"00000010-0000-1000-8000-0026BB765291","perms":["pr","ev"],"ev":false,"format":"float","minValue":0,"maxValue":100,"minStep":1,"unit":"percentage"}]},{"iid":19,"type":"D57034D8-3736-11E8-B467-0ED5F89F718B","hidden":true,"characteristics":[{"iid":20,"type":"D57039E2-3736-11E8-B467-0ED5F89F718B","perms":["pw"],"ev":false,"format":"string","description":"FW Upgrade URL"},{"iid":21,"value":0,"type":"D5703B5E-3736-11E8-B467-0ED5F89F718B","perms":["pr","ev"],"ev":false,"format":"int","description":"FW Upgrade Status"}]}]}]}
+2024-06-11 21:22:05.579 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD initialize Object homekit-controller.0.IP-E1:1E:37:29:F8:CD.1.thermostat-11.heating-cooling-target with Converter undefined and stateChangeFunction
+2024-06-11 21:22:05.589 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD initialize Object homekit-controller.0.IP-E1:1E:37:29:F8:CD.1.thermostat-11.temperature-target with Converter undefined and stateChangeFunction
+2024-06-11 21:22:05.596 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD initialize Object homekit-controller.0.IP-E1:1E:37:29:F8:CD.1.thermostat-11.temperature-units with Converter undefined and stateChangeFunction
+2024-06-11 21:22:05.613 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD initialize Object homekit-controller.0.IP-E1:1E:37:29:F8:CD.1.D57034D8-3736-11E8-B467-0ED5F89F718B-19.D57039E2-3736-11E8-B467-0ED5F89F718B with Converter undefined and stateChangeFunction
+2024-06-11 21:22:05.628 - debug: homekit-controller.0 (99399) Device IP-E1:1E:37:29:F8:CD collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.10","1.12","1.13","1.14","1.15","1.16","1.17","1.18","1.21"]
+2024-06-11 21:22:05.628 - debug: homekit-controller.0 (99399) Device IP-E1:1E:37:29:F8:CD collected subscription IDs: ["1.12","1.13","1.14","1.15","1.16","1.18","1.21"]
+2024-06-11 21:22:06.194 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD Subscribed to 7 characteristics: {}
+2024-06-11 21:22:06.195 - debug: homekit-controller.0 (99399) Init IP-C2:F7:25:09:FC:6F as known device
+2024-06-11 21:22:06.195 - info: homekit-controller.0 (99399) IP-C2:F7:25:09:FC:6F (Yahka-0 5D16) found without pairing data but available for pairing: Create basic objects
+2024-06-11 21:22:06.195 - debug: homekit-controller.0 (99399) Service: {"name":"Yahka-0 5D16","address":"192.168.19.3","allAddresses":["192.168.19.3","fe80::be24:11ff:fe2c:3bd"],"port":41071,"c#":2,"ff":0,"id":"c2:f7:25:09:fc:6f","md":"not configured","pv":"1.1","s#":1,"sf":1,"ci":2,"availableToPair":true}
+2024-06-11 21:22:06.250 - debug: homekit-controller.0 (99399) Init IP-D5:B7:53:52:1B:10 as known device
+2024-06-11 21:22:06.250 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 Start Homekit Device Client initialization on 192.168.19.175:63399
+2024-06-11 21:22:06.250 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-DD64","address":"192.168.19.175","allAddresses":["192.168.19.175","fe80::56ef:44ff:fe52:dd64"],"port":63399,"c#":1,"ff":2,"id":"D5:B7:53:52:1B:10","md":"PS-S02E","pv":"1.1","s#":7,"sf":1,"ci":10,"availableToPair":false}
+2024-06-11 21:22:06.254 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 Request Accessory information
+2024-06-11 21:22:07.398 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","format":"bool","perms":["pw"]},{"iid":3,"type":"00000020-0000-1000-8000-0026BB765291","format":"string","value":"Aqara","perms":["pr"],"ev":false,"enc":false},{"iid":4,"type":"00000021-0000-1000-8000-0026BB765291","format":"string","value":"PS-S02E","perms":["pr"],"ev":false,"enc":false},{"iid":5,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence-Sensor-FP2-DD64","perms":["pr"],"ev":false,"enc":false},{"iid":6,"type":"00000030-0000-1000-8000-0026BB765291","format":"string","value":"54EF4452DD64","perms":["pr"],"ev":false,"enc":false},{"iid":7,"type":"00000052-0000-1000-8000-0026BB765291","format":"string","value":"1.2.6","perms":["pr"],"ev":false,"enc":false},{"iid":8,"type":"00000053-0000-1000-8000-0026BB765291","format":"string","value":"1.0.0","perms":["pr"],"ev":false,"enc":false},{"iid":9,"type":"34AB8811-AC7F-4340-BAC3-FD6A85F9943B","format":"string","value":"6.1;6.1","perms":["pr","hd"],"ev":false,"enc":false},{"iid":10,"type":"00000220-0000-1000-8000-0026BB765291","format":"data","value":"xDsGOzOmv1k=","perms":["pr"],"ev":false,"enc":false,"maxDataLen":8}]},{"iid":16,"type":"000000A2-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":18,"type":"00000037-0000-1000-8000-0026BB765291","format":"string","value":"1.1.0","perms":["pr"],"ev":false,"enc":false}]},{"iid":64,"type":"0000022A-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":66,"type":"0000022B-0000-1000-8000-0026BB765291","format":"bool","value":1,"perms":["pr"],"ev":false,"enc":false},{"iid":67,"type":"0000022C-0000-1000-8000-0026BB765291","format":"uint32","value":9,"perms":["pr"],"ev":false,"enc":false,"minValue":0,"maxValue":15,"minStep":1},{"iid":68,"type":"0000022D-0000-1000-8000-0026BB765291","format":"tlv8","value":"","perms":["pr","pw","ev","tw","wr"],"ev":false,"enc":false}]},{"iid":2560,"type":"00000239-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2562,"type":"0000023C-0000-1000-8000-0026BB765291","format":"data","value":"","perms":["pr"],"ev":false,"enc":false,"maxDataLen":0}]},{"iid":80,"type":"9715BF53-AB63-4449-8DC7-2785D617390A","primary":false,"hidden":true,"characteristics":[{"iid":81,"type":"7D943F6A-E052-4E96-A176-D17BF00E32CB","format":"int","value":-1,"perms":["pr","ev","hd"],"ev":false,"enc":false,"description":"Firmware Update Status","minValue":-128,"maxValue":127,"minStep":1},{"iid":82,"type":"A45EFD52-0DB5-4C1A-9727-513FBCD8185F","format":"string","perms":["pw","hd"],"description":"Firmware Update URL","maxLen":256},{"iid":83,"type":"40F0124A-579D-40E4-865E-0EF6740EA64B","format":"string","perms":["pw","hd"],"description":"Firmware Update Checksum"},{"iid":85,"type":"96BF5F20-2996-4DB6-8D65-0E36314BCB6D","format":"string","value":"1.2.6","perms":["pr","hd"],"ev":false,"enc":false,"description":"Firmware Version"},{"iid":84,"type":"36B7A28B-3200-4783-A3FB-6714F11B1417","format":"string","value":"lumi.motion.agl001","perms":["pr","hd"],"ev":false,"enc":false,"description":"Device Model"},{"iid":86,"type":"F5329CB1-A50B-4225-BA9B-331449E7F7A9","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Selected IoT Platform","minValue":0,"maxValue":4,"minStep":1}]},{"iid":96,"type":"F49132D1-12DF-4119-87D3-A93E8D68531E","primary":false,"hidden":true,"characteristics":[{"iid":101,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"AIOT","perms":["pr","hd"],"ev":false,"enc":false,"description":"Name"},{"iid":97,"type":"25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C","format":"string","value":"coap-ger.aqara.com","perms":["pr","pw","hd"],"ev":false,"enc":false,"description":"Country Domain"},{"iid":98,"type":"C7EECAA7-91D9-40EB-AD0C-FFDDE3143CB9","format":"string","value":"lumi1.54ef4452dd64","perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT did"},{"iid":99,"type":"80FA747E-CB45-45A4-B7BE-AA7D9964859E","format":"string","perms":["pw","hd"],"description":"AIOT bindkey"},{"iid":100,"type":"C3B8A329-EF0C-4739-B773-E5B7AEA52C71","format":"bool","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT bindstate"}]},{"iid":2672,"type":"00000084-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2673,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Light Sensor","perms":["pr"],"ev":false,"enc":false},{"iid":2674,"type":"0000006B-0000-1000-8000-0026BB765291","format":"float","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"unit":"lux","minValue":0,"maxValue":100000,"minStep":1}]},{"iid":2688,"type":"00000086-0000-1000-8000-0026BB765291","primary":true,"hidden":false,"characteristics":[{"iid":2689,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 1","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2690,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":1,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2691,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":0,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]}]}]}
+2024-06-11 21:22:07.478 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.wifi-transport-64.current-transport with Converter number-to-boolean
+2024-06-11 21:22:07.486 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.wifi-transport-64.wifi-configuration-control with Converter undefined and stateChangeFunction
+2024-06-11 21:22:07.499 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.A45EFD52-0DB5-4C1A-9727-513FBCD8185F with Converter undefined and stateChangeFunction
+2024-06-11 21:22:07.502 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.40F0124A-579D-40E4-865E-0EF6740EA64B with Converter undefined and stateChangeFunction
+2024-06-11 21:22:07.528 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C with Converter undefined and stateChangeFunction
+2024-06-11 21:22:07.543 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.80FA747E-CB45-45A4-B7BE-AA7D9964859E with Converter undefined and stateChangeFunction
+2024-06-11 21:22:07.545 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 initialize Object homekit-controller.0.IP-D5:B7:53:52:1B:10.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.C3B8A329-EF0C-4739-B773-E5B7AEA52C71 with Converter number-to-boolean
+2024-06-11 21:22:07.600 - debug: homekit-controller.0 (99399) Device IP-D5:B7:53:52:1B:10 collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.8","1.9","1.10","1.66","1.67","1.68","1.2562","1.81","1.85","1.84","1.86","1.101","1.97","1.98","1.100","1.2673","1.2674","1.2689","1.2690","1.2691"]
+2024-06-11 21:22:07.600 - debug: homekit-controller.0 (99399) Device IP-D5:B7:53:52:1B:10 collected subscription IDs: ["1.68","1.81","1.2674","1.2690"]
+2024-06-11 21:22:08.660 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 Subscribed to 4 characteristics: {}
+2024-06-11 21:22:08.661 - debug: homekit-controller.0 (99399) Init IP-4C:28:26:99:C0:65 as known device
+2024-06-11 21:22:08.661 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 Start Homekit Device Client initialization on 192.168.19.18:51627
+2024-06-11 21:22:08.661 - debug: homekit-controller.0 (99399) Service: {"name":"Presence-Sensor-FP2-C7E8","address":"192.168.19.18","allAddresses":["192.168.19.18","fe80::56ef:44ff:fe53:c7e8"],"port":51627,"c#":5,"ff":2,"id":"4C:28:26:99:C0:65","md":"PS-S02E","pv":"1.1","s#":495,"sf":1,"ci":10,"availableToPair":false}
+2024-06-11 21:22:08.665 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 Request Accessory information
+2024-06-11 21:22:09.847 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 Accessory Structure: {"accessories":[{"aid":1,"services":[{"iid":1,"type":"0000003E-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2,"type":"00000014-0000-1000-8000-0026BB765291","format":"bool","perms":["pw"]},{"iid":3,"type":"00000020-0000-1000-8000-0026BB765291","format":"string","value":"Aqara","perms":["pr"],"ev":false,"enc":false},{"iid":4,"type":"00000021-0000-1000-8000-0026BB765291","format":"string","value":"PS-S02E","perms":["pr"],"ev":false,"enc":false},{"iid":5,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence-Sensor-FP2-C7E8","perms":["pr"],"ev":false,"enc":false},{"iid":6,"type":"00000030-0000-1000-8000-0026BB765291","format":"string","value":"54EF4453C7E8","perms":["pr"],"ev":false,"enc":false},{"iid":7,"type":"00000052-0000-1000-8000-0026BB765291","format":"string","value":"1.2.6","perms":["pr"],"ev":false,"enc":false},{"iid":8,"type":"00000053-0000-1000-8000-0026BB765291","format":"string","value":"1.0.0","perms":["pr"],"ev":false,"enc":false},{"iid":9,"type":"34AB8811-AC7F-4340-BAC3-FD6A85F9943B","format":"string","value":"6.1;6.1","perms":["pr","hd"],"ev":false,"enc":false},{"iid":10,"type":"00000220-0000-1000-8000-0026BB765291","format":"data","value":"xDsGOzOmv1k=","perms":["pr"],"ev":false,"enc":false,"maxDataLen":8}]},{"iid":16,"type":"000000A2-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":18,"type":"00000037-0000-1000-8000-0026BB765291","format":"string","value":"1.1.0","perms":["pr"],"ev":false,"enc":false}]},{"iid":64,"type":"0000022A-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":66,"type":"0000022B-0000-1000-8000-0026BB765291","format":"bool","value":1,"perms":["pr"],"ev":false,"enc":false},{"iid":67,"type":"0000022C-0000-1000-8000-0026BB765291","format":"uint32","value":9,"perms":["pr"],"ev":false,"enc":false,"minValue":0,"maxValue":15,"minStep":1},{"iid":68,"type":"0000022D-0000-1000-8000-0026BB765291","format":"tlv8","value":"","perms":["pr","pw","ev","tw","wr"],"ev":false,"enc":false}]},{"iid":2560,"type":"00000239-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2562,"type":"0000023C-0000-1000-8000-0026BB765291","format":"data","value":"","perms":["pr"],"ev":false,"enc":false,"maxDataLen":0}]},{"iid":80,"type":"9715BF53-AB63-4449-8DC7-2785D617390A","primary":false,"hidden":true,"characteristics":[{"iid":81,"type":"7D943F6A-E052-4E96-A176-D17BF00E32CB","format":"int","value":-1,"perms":["pr","ev","hd"],"ev":false,"enc":false,"description":"Firmware Update Status","minValue":-128,"maxValue":127,"minStep":1},{"iid":82,"type":"A45EFD52-0DB5-4C1A-9727-513FBCD8185F","format":"string","perms":["pw","hd"],"description":"Firmware Update URL","maxLen":256},{"iid":83,"type":"40F0124A-579D-40E4-865E-0EF6740EA64B","format":"string","perms":["pw","hd"],"description":"Firmware Update Checksum"},{"iid":85,"type":"96BF5F20-2996-4DB6-8D65-0E36314BCB6D","format":"string","value":"1.2.6","perms":["pr","hd"],"ev":false,"enc":false,"description":"Firmware Version"},{"iid":84,"type":"36B7A28B-3200-4783-A3FB-6714F11B1417","format":"string","value":"lumi.motion.agl001","perms":["pr","hd"],"ev":false,"enc":false,"description":"Device Model"},{"iid":86,"type":"F5329CB1-A50B-4225-BA9B-331449E7F7A9","format":"uint8","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Selected IoT Platform","minValue":0,"maxValue":4,"minStep":1}]},{"iid":96,"type":"F49132D1-12DF-4119-87D3-A93E8D68531E","primary":false,"hidden":true,"characteristics":[{"iid":101,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"AIOT","perms":["pr","hd"],"ev":false,"enc":false,"description":"Name"},{"iid":97,"type":"25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C","format":"string","value":"","perms":["pr","pw","hd"],"ev":false,"enc":false,"description":"Country Domain"},{"iid":98,"type":"C7EECAA7-91D9-40EB-AD0C-FFDDE3143CB9","format":"string","value":"lumi1.54ef4453c7e8","perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT did"},{"iid":99,"type":"80FA747E-CB45-45A4-B7BE-AA7D9964859E","format":"string","perms":["pw","hd"],"description":"AIOT bindkey"},{"iid":100,"type":"C3B8A329-EF0C-4739-B773-E5B7AEA52C71","format":"bool","value":1,"perms":["pr","hd"],"ev":false,"enc":false,"description":"AIOT bindstate"}]},{"iid":2672,"type":"00000084-0000-1000-8000-0026BB765291","primary":false,"hidden":false,"characteristics":[{"iid":2673,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Light Sensor","perms":["pr"],"ev":false,"enc":false},{"iid":2674,"type":"0000006B-0000-1000-8000-0026BB765291","format":"float","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"unit":"lux","minValue":0,"maxValue":100000,"minStep":1}]},{"iid":2688,"type":"00000086-0000-1000-8000-0026BB765291","primary":true,"hidden":false,"characteristics":[{"iid":2689,"type":"00000023-0000-1000-8000-0026BB765291","format":"string","value":"Presence Sensor 1","perms":["pr"],"ev":false,"enc":false,"maxLen":20},{"iid":2690,"type":"00000071-0000-1000-8000-0026BB765291","format":"uint8","value":0,"perms":["pr","ev"],"ev":false,"enc":false,"minValue":0,"maxValue":1,"minStep":1},{"iid":2691,"type":"C8622A33-826A-4DD3-9BE9-D496361F29BB","format":"uint8","value":0,"perms":["pr","hd"],"ev":false,"enc":false,"description":"Sensor Index","minValue":0,"maxValue":30,"minStep":1}]}]}]}
+2024-06-11 21:22:09.957 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.wifi-transport-64.current-transport with Converter number-to-boolean
+2024-06-11 21:22:09.964 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.wifi-transport-64.wifi-configuration-control with Converter undefined and stateChangeFunction
+2024-06-11 21:22:09.979 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.A45EFD52-0DB5-4C1A-9727-513FBCD8185F with Converter undefined and stateChangeFunction
+2024-06-11 21:22:09.987 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.9715BF53-AB63-4449-8DC7-2785D617390A-80.40F0124A-579D-40E4-865E-0EF6740EA64B with Converter undefined and stateChangeFunction
+2024-06-11 21:22:10.059 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.25D889CB-7135-4A29-B5B4-C1FFD6D2DD5C with Converter undefined and stateChangeFunction
+2024-06-11 21:22:10.069 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.80FA747E-CB45-45A4-B7BE-AA7D9964859E with Converter undefined and stateChangeFunction
+2024-06-11 21:22:10.074 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 initialize Object homekit-controller.0.IP-4C:28:26:99:C0:65.1.F49132D1-12DF-4119-87D3-A93E8D68531E-96.C3B8A329-EF0C-4739-B773-E5B7AEA52C71 with Converter number-to-boolean
+2024-06-11 21:22:10.125 - debug: homekit-controller.0 (99399) Device IP-4C:28:26:99:C0:65 collected polling IDs: ["1.3","1.4","1.5","1.6","1.7","1.8","1.9","1.10","1.66","1.67","1.68","1.2562","1.81","1.85","1.84","1.86","1.101","1.97","1.98","1.100","1.2673","1.2674","1.2689","1.2690","1.2691"]
+2024-06-11 21:22:10.125 - debug: homekit-controller.0 (99399) Device IP-4C:28:26:99:C0:65 collected subscription IDs: ["1.68","1.81","1.2674","1.2690"]
+2024-06-11 21:22:11.220 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 Subscribed to 4 characteristics: {}
+2024-06-11 21:22:11.328 - debug: homekit-controller.0 (99399) Discovered IP device up: AB:D9:E7:52:AB:44/Aqara-Hub-M2-B9C2
+2024-06-11 21:22:11.328 - debug: homekit-controller.0 (99399) IP-AB:D9:E7:52:AB:44 Discovered IP device: {"name":"Aqara-Hub-M2-B9C2","address":"192.168.19.75","allAddresses":["192.168.19.75","fe80::1ac2:3cff:fe0c:f6d3"],"port":58406,"c#":3,"ff":2,"id":"AB:D9:E7:52:AB:44","md":"AG035","pv":"1.1","s#":11,"sf":0,"ci":2,"availableToPair":false}
+2024-06-11 21:22:11.328 - info: homekit-controller.0 (99399) IP-AB:D9:E7:52:AB:44 (Aqara-Hub-M2-B9C2) found without known pairing data and already paired: ignoring
+2024-06-11 21:22:11.387 - debug: homekit-controller.0 (99399) Discovered IP device up: 60:01:28:ED:B1:C2/Presence-Sensor-FP2-E64F
+2024-06-11 21:22:11.387 - debug: homekit-controller.0 (99399) IP-60:01:28:ED:B1:C2 Discovery device update, unchanged config-number, ignore
+2024-06-11 21:22:11.424 - debug: homekit-controller.0 (99399) Discovered IP device up: 78:09:32:0F:35:65/Nanoleaf
+2024-06-11 21:22:11.424 - debug: homekit-controller.0 (99399) IP-78:09:32:0F:35:65 Discovered IP device: {"name":"Nanoleaf","address":"192.168.19.83","allAddresses":["192.168.19.83","fe80::255:daff:fe57:355f"],"port":6517,"c#":3,"ff":1,"id":"78:09:32:0F:35:65","md":"NL22","pv":"1.1","s#":1,"sf":0,"ci":5,"availableToPair":false}
+2024-06-11 21:22:11.424 - info: homekit-controller.0 (99399) IP-78:09:32:0F:35:65 (Nanoleaf) found without known pairing data and already paired: ignoring
+2024-06-11 21:22:11.451 - debug: homekit-controller.0 (99399) Discovered IP device up: 13:7D:18:F0:01:DF/Presence-Sensor-FP2-BB7E
+2024-06-11 21:22:11.452 - debug: homekit-controller.0 (99399) IP-13:7D:18:F0:01:DF Discovery device update, unchanged config-number, ignore
+2024-06-11 21:22:11.455 - debug: homekit-controller.0 (99399) Discovered IP device up: 4C:28:26:99:C0:65/Presence-Sensor-FP2-C7E8
+2024-06-11 21:22:11.456 - debug: homekit-controller.0 (99399) IP-4C:28:26:99:C0:65 Discovery device update, unchanged config-number, ignore
+2024-06-11 21:22:11.459 - debug: homekit-controller.0 (99399) Discovered IP device up: D5:B7:53:52:1B:10/Presence-Sensor-FP2-DD64
+2024-06-11 21:22:11.460 - debug: homekit-controller.0 (99399) IP-D5:B7:53:52:1B:10 Discovery device update, unchanged config-number, ignore
+2024-06-11 21:22:11.461 - debug: homekit-controller.0 (99399) Discovered IP device up: E1:1E:37:29:F8:CD/Sensibo-E14A88
+2024-06-11 21:22:11.462 - debug: homekit-controller.0 (99399) IP-E1:1E:37:29:F8:CD Discovery device update, unchanged config-number, ignore
+2024-06-11 21:22:11.467 - debug: homekit-controller.0 (99399) Discovered IP device up: 74:CB:07:30:E8:EF/Presence-Sensor-FP2-922B
+2024-06-11 21:22:11.467 - debug: homekit-controller.0 (99399) IP-74:CB:07:30:E8:EF Discovery device update, unchanged config-number, ignore

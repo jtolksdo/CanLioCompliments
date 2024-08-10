@@ -1,0 +1,462 @@
+var INTERVAL_MS = 1000 * 60
+ 
+var ASTRO_DAYTIME = "javascript.0.script.js.common.Astro.Tageszeit.current";
+var DYNAMIC_LIGHT_KELVIN = "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin";
+var DYNAMIC_LIGHT_BRIGHTNESS = "javascript.0.Dynamisches_Licht.Hilfswert_Brightness";
+var DYNAMIC_LIGHT_KELVIN_LOG = "javascript.0.Dynamisches_Licht.Hilfswert_Kelvin_log";
+var DYNAMIC_LIGHT_BRIGHTNESS_LOG = "javascript.0.Dynamisches_Licht.Hilfswert_Brightness_log";
+ 
+var KELVIN_DAYBREAK = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Morgendämmerung";
+var KELVIN_SUNRISE = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Sonnenaufgang";
+var KELVIN_FORENOON = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Vormittag";
+var KELVIN_NOON = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Mittag";
+var KELVIN_TWILIGHT = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Abendämmerung";
+var KELVIN_EVE = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Abend";
+var KELVIN_NIGHT = "javascript.0.Dynamisches_Licht.Kelvin_Werte.Nacht";
+ 
+var BRIGHTNESS_DAYBREAK = "javascript.0.Dynamisches_Licht.Brightness_Werte.Morgendämmerung";
+var BRIGHTNESS_SUNRISE = "javascript.0.Dynamisches_Licht.Brightness_Werte.Sonnenaufgang";
+var BRIGHTNESS_FORENOON = "javascript.0.Dynamisches_Licht.Brightness_Werte.Vormittag";
+var BRIGHTNESS_NOON = "javascript.0.Dynamisches_Licht.Brightness_Werte.Mittag";
+var BRIGHTNESS_TWILIGHT = "javascript.0.Dynamisches_Licht.Brightness_Werte.Abendämmerung";
+var BRIGHTNESS_EVE = "javascript.0.Dynamisches_Licht.Brightness_Werte.Abend";
+var BRIGHTNESS_NIGHT = "javascript.0.Dynamisches_Licht.Brightness_Werte.Nacht";
+ 
+var interval = null;
+ 
+var startTime = null;
+var endTime;
+var startKelvin;
+var endKelvin;
+var startBrightness;
+var endBrightness;
+var lastDiffKelvin;
+var lastDiffBrightness;
+ 
+ 
+function startTimer(){
+    console.log('startTimer');
+    if(startTime == null){
+        setState(ASTRO_DAYTIME,getState(ASTRO_DAYTIME).val); //Trigger newDaytime
+    }
+    else{
+        if(interval){
+            clearInterval(interval);
+        }
+ 
+        interval = setInterval(function(){
+            var lastKelvin = getKelvinState();
+            var lastBrightness = getBrightnessState();
+            var timeDiff = getTimeDifference(endTime, startTime); //Zeitdifferenz zwischen start und ende dimmer
+            var timeDiffNowStart = getTimeDifference(new Date().toString(),startTime); //Zeitdifferenz zwischen start und jetzt
+            var timeDiffNowEnd = getTimeDifference(endTime, new Date().toString());//Zeitdifferenz zwischen jetzt und ende dimmer
+ 
+ 
+            var kelvin;
+            var brightness;
+            
+            if(timeDiffNowStart+timeDiffNowEnd == timeDiff){ // Aktuelle zeit liegt zwischen start und ende
+                kelvin = startKelvin + ((endKelvin-startKelvin) * timeDiffNowStart / timeDiff); //Start Lichtfarbe + differenz zwischen start und ende Lichtfarbe im verhältnis zur zeit seit start
+                brightness = startBrightness + ((endBrightness-startBrightness) * timeDiffNowStart / timeDiff);
+            }
+            else if(timeDiffNowStart > timeDiffNowEnd){ //Aktuelle Zeit liegt vor Startzeit (Zeitdifferenz zwischen start und jetzt wird bis in den nächsten Tag berechnet)
+                kelvin = startKelvin;
+                brightness = startBrightness;
+            }
+            else{ //Aktuelle zeit liegt nach Endezeit
+                kelvin = endKelvin;
+                brightness = endBrightness;
+            }
+ 
+            /**switch (compTime(startTime,endTime,new Date().toString())){ //Wenn die zeit außerhalb der start ende zeit ist wird direkt der start/ende wert verwendet
+                case -1:
+                    kelvin = startKelvin;
+                    brightness = startBrightness;
+                break;
+                case 1:
+                    kelvin = endKelvin;
+                    brightness = endBrightness;
+                break;
+                default:
+                    kelvin = startKelvin + ((endKelvin-startKelvin) * timeDiffNow / timeDiff); //Start Lichtfarbe + differenz zwischen start und ende Lichtfarbe im verhältnis zur zeit seit start
+                    brightness = startBrightness + ((endBrightness-startBrightness) * timeDiffNow / timeDiff);
+            }**/
+                                                                                                                                   
+            setKelvin(kelvin); //Lichtfarbe setzen
+            setBrightness(brightness); //Helligkeit setzen
+ 
+            if(Math.abs(kelvin - lastKelvin) > lastDiffKelvin*2 || Math.abs(brightness - lastBrightness) > lastBrightness*2){
+                console.log("Differenz zu groß");
+            }
+ 
+            lastDiffKelvin = Math.abs(kelvin - lastKelvin);
+            lastDiffBrightness = Math.abs(brightness - lastBrightness);
+ 
+            console.log("Start:     " + (startTime.indexOf("javascript") >= 0 ? getState(startTime).val : startTime) + ' K: ' + startKelvin.toFixed(6) + ' Bri: ' + startBrightness.toFixed(6));   
+            console.log("Ende:      " + (endTime.indexOf("javascript") >= 0 ? getState(endTime).val : endTime)       + ' K: ' + endKelvin.toFixed(6)   + ' Bri: ' + endBrightness.toFixed(6));   
+            console.log("Jetzt:     " + formatDate(new Date() , "SS:mm")                                             + ' K: ' + kelvin.toFixed(6)      + ' Bri: ' + brightness.toFixed(6)); 
+            console.log("Start->Ende: " + timeDiff + " Start->Jetzt: " + timeDiffNowStart + " Jetzt->Ende: " + timeDiffNowEnd);
+        }, INTERVAL_MS);
+    }
+}
+ 
+function newDaytime(obj){
+  var runs, step;
+ 
+  console.log('ASTRO_DAYTIME: ' + obj.state.val)
+  switch (obj.state.val) {
+    case 'Morgendämmerung':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.11 - nauticalDawn";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.12 - dawn";
+        startBrightness = getState(BRIGHTNESS_DAYBREAK).val;
+        endBrightness = getState(BRIGHTNESS_SUNRISE).val;
+        startKelvin = getState(KELVIN_DAYBREAK).val;
+        endKelvin = getState(KELVIN_SUNRISE).val;
+      break;
+ 
+    case 'Sonnenaufgang':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.12 - dawn";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.03 - goldenHourEnd";
+        startBrightness = getState(BRIGHTNESS_SUNRISE).val;
+        endBrightness = getState(BRIGHTNESS_FORENOON).val;
+        startKelvin = getState(KELVIN_SUNRISE).val;
+        endKelvin = getState(KELVIN_FORENOON).val;
+      break;
+ 
+    case 'Vormittag':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.03 - goldenHourEnd";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.04 - solarNoon";
+        startBrightness = getState(BRIGHTNESS_FORENOON).val;
+        endBrightness = getState(BRIGHTNESS_NOON).val;
+        startKelvin = getState(KELVIN_FORENOON).val;
+        endKelvin = getState(KELVIN_NOON).val;
+      break;
+ 
+    case 'Mittag':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.04 - solarNoon";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.05 - goldenHour";
+        startBrightness = getState(BRIGHTNESS_NOON).val;
+        endBrightness = getState(BRIGHTNESS_EVE).val;
+        startKelvin = getState(KELVIN_NOON).val;
+        endKelvin = getState(KELVIN_EVE).val;
+      break;
+ 
+    case 'Abend':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.05 - goldenHour";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.09 - nauticalDusk";
+        startBrightness = getState(BRIGHTNESS_EVE).val;
+        endBrightness = getState(BRIGHTNESS_TWILIGHT).val;
+        startKelvin = getState(KELVIN_EVE).val;
+        endKelvin = getState(KELVIN_TWILIGHT).val;
+      break;
+ 
+    case 'Abenddämmerung':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.09 - nauticalDusk";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.10 - nadir";
+        startBrightness = getState(BRIGHTNESS_TWILIGHT).val;
+        endBrightness = getState(BRIGHTNESS_NIGHT).val;
+        startKelvin = getState(KELVIN_TWILIGHT).val;
+        endKelvin = getState(KELVIN_NIGHT).val;
+      break;
+ 
+    case 'Nacht':
+        startTime = "javascript.0.script.js.common.Astro.Zeiten.10 - nadir";
+        endTime = "javascript.0.script.js.common.Astro.Zeiten.11 - nauticalDawn";
+        startBrightness = getState(BRIGHTNESS_NIGHT).val;
+        endBrightness = getState(BRIGHTNESS_DAYBREAK).val;
+        startKelvin = getState(KELVIN_NIGHT).val;
+        endKelvin = getState(KELVIN_DAYBREAK).val;
+      break;
+ 
+ 
+    default:
+      console.log('State missing: ' + obj.state.val)
+      break;    
+  }
+ 
+    if(startTime != null){
+        startTimer();
+    }
+}
+ 
+ 
+/** HELPER FUNCTIONS **/
+ 
+function getMinutes (time) {
+  var dateString = time.indexOf("javascript") >= 0 ? getState(time).val : time;
+  var v = getDateObject(dateString);
+  //var log = v.getHours() * 60 + v.getMinutes()
+  //console.log("Minutes: " + log);
+  return v.getHours() * 60 + v.getMinutes();
+}
+ 
+function getTimeDifference (time1, time2) {
+    var min1 = getMinutes(time1);
+    var min2 = getMinutes(time2);
+    var diff = getMinutes(time1) - getMinutes(time2);
+    if(diff < 0){
+        return min1 + (1440 - min2);
+    }
+    else{
+        return diff;
+    }
+  //return getMinutes(time1) - getMinutes(time2)
+}
+ 
+/**function compTime(start,end,time){
+    if(getDateObject(time.indexOf("javascript") >= 0 ? getState(time).val : time).getMilliseconds() < getDateObject(start.indexOf("javascript") >= 0 ? getState(start).val : start).getMilliseconds())
+    {
+        return -1;
+    }
+    else if((getDateObject(time.indexOf("javascript") >= 0 ? getState(time).val : time)).getMilliseconds() > getDateObject(end.indexOf("javascript") >= 0 ? getState(end).val : end).getMilliseconds())
+    {
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}**/
+ 
+function getKelvinState () {
+  return getState(DYNAMIC_LIGHT_KELVIN).val;
+}
+ 
+function setKelvin (value) {
+    setState(DYNAMIC_LIGHT_KELVIN_LOG, value)
+  return setState(DYNAMIC_LIGHT_KELVIN, Math.round(value));
+}
+ 
+function setKelvinState (state) {
+  setKelvin(getState(state).val);
+}
+ 
+function getBrightnessState () {
+  return getState(DYNAMIC_LIGHT_BRIGHTNESS).val;
+}
+ 
+function setBrightness (value) {
+    setState(DYNAMIC_LIGHT_BRIGHTNESS_LOG, value);
+  return setState(DYNAMIC_LIGHT_BRIGHTNESS, Math.round(value));
+}
+ 
+function setBrightnessState (state) {
+  setBrightness(getState(state).val);
+}
+ 
+ 
+ 
+/** ADD STATES **/
+ /***/
+ /** ADD STATES **/
+ 
+  /***/
+ 
+ createState(KELVIN_DAYBREAK, {
+ 
+   name: 'Morgendämmerung',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   2700,
+ 
+ });
+ 
+ createState(KELVIN_SUNRISE, {
+ 
+   name: 'Sonnenaufgang',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   4000,
+ 
+ });
+ 
+ createState(KELVIN_FORENOON, {
+ 
+   name: 'Vormittag',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   5500,
+ 
+ });
+ 
+ createState(KELVIN_NOON, {
+ 
+   name: 'Mittag',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   5000,
+ 
+ });
+ 
+ createState(KELVIN_EVE, {
+ 
+   name: 'Abend',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   4500,
+ 
+ });
+ 
+ createState(KELVIN_TWILIGHT, {
+ 
+   name: 'Abenddämmerung',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   3000,
+ 
+ });
+ 
+ createState(KELVIN_NIGHT, {
+ 
+   name: 'Nacht',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   2100,
+ 
+ });
+ 
+ createState(DYNAMIC_LIGHT_KELVIN, {
+ 
+   name: 'Hilfswert_Kelvin',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   5000,
+ 
+ });
+ 
+  createState(DYNAMIC_LIGHT_KELVIN, {
+ 
+   name: 'Hilfswert_Kelvin_log',
+ 
+   unit: 'K',
+ 
+   type: 'number',
+ 
+   def:   5000,
+ 
+ });
+ 
+  createState(BRIGHTNESS_DAYBREAK, {
+ 
+   name: 'Morgendämmerung',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   30,
+ 
+ });
+ 
+ createState(BRIGHTNESS_SUNRISE, {
+ 
+   name: 'Sonnenaufgang',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   40,
+ 
+ });
+ 
+ createState(BRIGHTNESS_FORENOON, {
+ 
+   name: 'Vormittag',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   80,
+ 
+ });
+ 
+ createState(BRIGHTNESS_NOON, {
+ 
+   name: 'Mittag',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   90,
+ 
+ });
+ 
+ createState(BRIGHTNESS_EVE, {
+ 
+   name: 'Abend',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   50,
+ 
+ });
+ 
+ createState(BRIGHTNESS_TWILIGHT, {
+ 
+   name: 'Abenddämmerung',
+ 
+   unit: '%',
+ 
+   type: 'number',
+ 
+   def:   38,
+ 
+ });
+ 
+ createState(BRIGHTNESS_NIGHT, {
+   name: 'Nacht',
+   unit: '%',
+   type: 'number',
+   def:   15,
+ });
+ 
+ createState(DYNAMIC_LIGHT_BRIGHTNESS, {
+   name: 'Hilfswert_Brightness',
+   unit: '%',
+   type: 'number',
+   def:   70,
+ });
+ 
+  createState(DYNAMIC_LIGHT_BRIGHTNESS_LOG, {
+   name: 'Hilfswert_Brightness_log',
+   unit: '%',
+   type: 'number',
+   def:   70,
+ 
+ });
+/***/
+ 
+// Tageszeit überprüfen
+//on({ id: ASTRO_DAYTIME, change: "any" }, newDaytimeKelvin);
+//on({ id: ASTRO_DAYTIME, change: "any" }, newDaytimeBrightness);
+on({ id: ASTRO_DAYTIME, change: "any" }, newDaytime);
+ 
+startTimer();

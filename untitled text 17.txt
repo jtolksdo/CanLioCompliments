@@ -1,0 +1,23 @@
+        {
+        module: 'MMM-ioBroker',
+        position: 'bottom_bar',
+        config: {
+                host: 'infrarot',
+                port: '8082',
+                https: false,
+                template: 'MMM-ioBroker.njk',
+                        devices: [
+                                { name: 'Tolles Ding',
+                                deviceStates: [
+                                        { id: 'hm-rpc.1.JEQ0156303.1.MOTION', icon: 'wi wi-thermometer', suffix: '&deg;' },
+                                        { id: 'mqtt.0.sensorX.humidity',    icon: 'wi wi-humidity',    suffix: '%' }
+                                                ]
+                                        },
+                                { name: 'writeHereTheName2',
+                                deviceStates: [
+                                        { id: 'mqtt.0.sensorY.temperature', icon: 'wi wi-thermometer',  suffix: '&deg;' },
+                                        { id: 'mqtt.0.sensorY.battery',     icon: 'fa fa-battery-half', suffix: '' }
+                                                ]
+                                        }
+                                ]
+                }
